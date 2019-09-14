@@ -69,7 +69,7 @@
 						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li ><a href="#" data-nav-section="about">About</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="work">Projects</a></li>
+						<li><a href="#" data-nav-section="work" id='project_section_button'>Projects</a></li>
 						<li><a href="#" data-nav-section="services">Service</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="skills">Awards</a></li>
@@ -112,7 +112,7 @@
 							   					<h1>I am <br>a Roboticist</h1>
 													<h2>Working in both the <a href="http://robotics.usc.edu/interaction/" target="_blank">Interaction Lab</a> and the
 													<a href="http://www.stefanosnikolaidis.net/join.html" target="_blank">ICAROS Lab</a></h2>
-													<p><a class="btn btn-primary btn-learn" href="#" data-nav-section="work">View Projects <i class="icon-briefcase3"></i></a></p>
+														<p><a onclick="eventFire(document.getElementById('project_section_button'), 'click');" class="btn btn-primary btn-learn" data-nav-section="work">View Projects <i class="icon-briefcase3"></i></a></p>
 												</div>
 						   				</div>
 						   			</div>
@@ -310,13 +310,13 @@
 															<div class="project" style="background-image: url(images/MobileManipulation.JPG);">
 																<div class="desc">
 																	<div class="con">
-																		<h3><a href="work.html">Mobile Manipulation Through Tactile Sensing</a></h3>
-																		<span>Developed a tactile sensor</span>
-																		<!-- <p class="icon">
-																			<span><a href="#"><i class="icon-share3"></i></a></span>
-																			<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-																			<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-																		</p> -->
+																		<h3><a href="projects/Mobile-Manipulation.html">Fine Manipulation Through Tactile Sensing</a></h3>
+																		<span>How can the sense of touch be used to inform robots performing fine manipulation tasks?</span>
+																		<p class="icon text-center">
+																			<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
+																			<span><a href="projects/Fine-Manipulation.html"><i class="icon-arrow-right"></i> Click here to find out! </a></span>
+																			<!-- <span><a href="#"><i class="icon-heart"></i> 49</a></span> -->
+																		</p>
 																	</div>
 																</div>
 															</div>
@@ -325,13 +325,14 @@
 															<div class="project" style="background-image: url(images/KiwiFace.png);">
 																<div class="desc">
 																	<div class="con">
-																		<h3><a href="work.html">CoRDial: A robot dialogue platform</a></h3>
-																		<span>Principled robotic face animations</span>
-																		<!-- <p class="icon">
-																			<span><a href="#"><i class="icon-share3"></i></a></span>
+																		<h3><a href="projects/CoRDial.html">CoRDial: A robot dialogue platform</a></h3>
+																		<span>How can a screen be used to engage a user in meaningful conversation?</span>
+																		<p class="icon text-center">
+																			<span><a href="projects/CoRDial.html"><i class="icon-arrow-right"></i> Click here to find out! </a></span>
+																			<!-- <span><a href="#"><i class="icon-share3"></i></a></span>
 																			<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-																			<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-																		</p> -->
+																			<span><a href="#"><i class="icon-heart"></i> 49</a></span> -->
+																		</p>
 																	</div>
 																</div>
 															</div>
@@ -340,13 +341,14 @@
 															<div class="project" style="background-image: url(images/sdt.png); background-position: center top;">
 																<div class="desc">
 																	<div class="con">
-																		<h3><a href="work.html">Motivation from Intelligent Tutoring Systems</a></h3>
-																		<span>Using self-determination theory to inform question design</span>
-																		<!-- <p class="icon">
-																			<span><a href="#"><i class="icon-share3"></i></a></span>
+																		<h3><a href="ITS-Motivation.html">Motivation from Intelligent Tutoring Systems</a></h3>
+																		<span>How can principles from Psychology inform the way we present students with questions to better help them learn?</span>
+																		<p class="icon text-center">
+																			<span><a href="projects/ITS-Motivation.html"><i class="icon-arrow-right"></i> Click here to find out! </a></span>
+																			<!-- <span><a href="#"><i class="icon-share3"></i></a></span>
 																			<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-																			<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-																		</p> -->
+																			<span><a href="#"><i class="icon-heart"></i> 49</a></span> -->
+																		</p>
 																	</div>
 																</div>
 															</div>
@@ -541,7 +543,7 @@
 								            <div class="timeline-entry-inner">
 
 								               <div class="timeline-icon color-1">
-								                  <i class="icon-pen2"></i>
+								                  <i class="icon-code"></i>
 								               </div>
 
 								               <div class="timeline-label">
@@ -554,7 +556,7 @@
 												 <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 								            <div class="timeline-entry-inner">
 								               <div class="timeline-icon color-4">
-								                  <i class="icon-pen2"></i>
+								                  <i class="icon-pencil"></i>
 								               </div>
 								               <div class="timeline-label">
 								               	<h2><a href="#">Teaching Assistant: Worcester Polytechnic Institute</a> <span>August 2018 - May 2019</span></h2>
@@ -566,7 +568,7 @@
 												 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 								            <div class="timeline-entry-inner">
 								               <div class="timeline-icon color-3">
-								                  <i class="icon-pen2"></i>
+								                  <i class="icon-beaker"></i>
 								               </div>
 								               <div class="timeline-label">
 								               	<h2><a href="#">Research Assistant: MIT Lincoln Labs</a> <span>August 2018 - November 2018</span></h2>
@@ -578,7 +580,7 @@
 								         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
 								            <div class="timeline-entry-inner">
 								               <div class="timeline-icon color-2">
-								                  <i class="icon-pen2"></i>
+								                  <i class="icon-beaker"></i>
 								               </div>
 								               <div class="timeline-label">
 								               	<h2><a href="#">Research Assistant: USC</a> <span>May 2018 - August 2018</span></h2>
@@ -591,7 +593,7 @@
 								         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 								            <div class="timeline-entry-inner">
 								               <div class="timeline-icon color-5">
-								                  <i class="icon-pen2"></i>
+								                  <i class="icon-code"></i>
 								               </div>
 								               <div class="timeline-label">
 								               	<h2><a href="#">Quality Assurance Intern: QuikOrder, Inc.</a> <span>May 2017 - August 2017</span></h2>
