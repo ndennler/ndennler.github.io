@@ -4,7 +4,7 @@
 title: Nathan Dennler
 description: >- # this means to ignore newlines until "baseurl:"
   Nathan is a Ph.D. Student at the University of Southern California. They are advised by Maja Mataric and Stefanos Nikolaidis.
-baseurl: "/website/" # the subpath of the site
+baseurl: "/" # the subpath of the site
 url: "https://ndennler.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 # google_analytics: "UA-121636368-3"
