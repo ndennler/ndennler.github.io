@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "The \"Quarantine Quoture\" Collection"
+date:   2020-03-13 08:00:00
+blurb: "The projects I did in Quarantine"
+og_image: /assets/img/content/post-example/Banner.jpg
+---
+
+To keep myself occupied during quarantine, I developed a few sewing projects to keep myself busy, which I referred to as the "Quarantine Quoture" collection (I love a good alliteration). These pieces don't really have a common theme other than being made during quarantine, but they were a fun exploration of different techniques!
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="{{ "/assets/img/content/qq/qq1-min.JPG" | absolute_url }}" style="width:100%">
+    <div class="text">Pearl Mask</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="{{ "/assets/img/content/qq/qq2-min.JPG" | absolute_url }}" style="width:100%">
+    <div class="text">Tuesday Bluesday</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="{{ "/assets/img/content/qq/qq3-min.JPG" | absolute_url }}" style="width:100%">
+    <div class="textdark">I Sing the Body(suit) Electric</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="{{ "/assets/img/content/qq/qq4-min.JPG" | absolute_url }}" style="width:100%">
+    <div class="text">Casual Friday</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="{{ "/assets/img/content/qq/qq5-min.JPG" | absolute_url }}" style="width:100%">
+    <div class="text">Clothes Are Modern</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<!-- #### Quarantine Quoture 1: The Pearl Mask
+This first piece I was somewhat ironically working on well before the pandemic. At the time I was thinking about this, I was very interested in the aesthetic of Davy Jones's tentacle face from the pirates of the carribean, and I thought it would be fun and glamourous if he instead had pearl tentacles. There was a nice thread of connection with both Davy Jones and pearls coming from the sea, but then I realized that a more topical representation of pearls is as a symbol of wealth. In their combination with the surgical mask, it became a commentary on the inaccessibility of affordable healthcare in America.
+
+#### Quarantine Quoture 2: Tuesday Bluesday -->
+
+
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<link rel="stylesheet" href="{{ "/assets/css/slideshow.css" | absolute_url }}"/>

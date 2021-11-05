@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+          <figure class="profile-fig">
+            <img
+              src="{{ page.profile_picture.src | absolute_url }}"
+              alt="{{ page.profile_picture.alt }}"
+              class="profile-pic"
+            />
+            <figcaption class="profile-cap">
+              Nathan Dennler (he/they)<br>dennler [at] usc [dot] edu<br>[<a href="http://twitter.com/ndennler">Twitter</a>] | [<a href="https://scholar.google.com/citations?user=jCtHLIQAAAAJ&hl=en&authuser=1&oi=ao">Scholar</a>] | [<a href="https://github.com/ndennler">GitHub</a>]
+            </figcaption>
+          </figure>
+
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
+</html>

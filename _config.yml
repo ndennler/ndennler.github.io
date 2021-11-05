@@ -1,1 +1,64 @@
-theme: jekyll-theme-minimal
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Nathan Dennler
+description: >- # this means to ignore newlines until "baseurl:"
+  Nathan is a Ph.D. Student at the University of Southern California. They are advised by Maja Mataric and Stefanos Nikolaidis.
+baseurl: "/website/" # the subpath of the site
+url: "https://ndennler.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+# google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Research
+    - name: CV
+    - name: Outreach
+    - name: Miscellany
+
+footer:
+  show_powered_by: false
+  contact:
+    - name: Email
+      value: dennler [at] usc [dot] edu
+      link: 
+
+  follow:
+    - name: Twitter
+      link: http://twitter.com/ndennler
+      username: "@ndennler"
+    - name: Instagram
+      link: http://instagram.com/natedennler
+      username: "@natedennler"
+    - name: LinkedIn
+      link: http://linkedin.com/in/nathaniel-dennler/
+    - name: GitHub
+      link: http://github.com/ndennler
+    - name: Scholar
+      link: https://scholar.google.com/citations?user=jCtHLIQAAAAJ&hl=en
+
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1
