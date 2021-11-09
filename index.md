@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Hello hello! I am Nathan Dennler, a 3rd year Ph.D. Student studying Human-Robot Interaction at the University of Southern California. I reside in the <a href="https://icaros.usc.edu/">Interactive and Collaborative Autonomous Robotics (ICAROS) Lab</a> and the <a href="https://uscinteractionlab.web.app/">Interaction Lab</a>. I am co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="https://robotics.usc.edu/~maja/index.html">Maja Matarić</a>. I explore the ways in which robots can adapt to different end-users to maximally align with their social and functional goals. 
+  Hello hello! I am Nathan Dennler, a 3rd year Ph.D. Candidate studying Human-Robot Interaction at the University of Southern California. I reside in the <a href="https://icaros.usc.edu/">Interactive and Collaborative Autonomous Robotics (ICAROS) Lab</a> and the <a href="https://uscinteractionlab.web.app/">Interaction Lab</a>. I am co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="https://robotics.usc.edu/~maja/index.html">Maja Matarić</a>. I explore the ways in which robots can adapt to different end-users to maximally align with their social and functional goals. 
 </p>
 
 <p>
