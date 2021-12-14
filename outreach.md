@@ -24,8 +24,8 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 
 ## Volunteering
 - Current volunteer with <a href="https://www.southlarobotics.com/"> South LA Robotics</a>
-- Journal Reviewer for IJRR, TSNRE, RA-L, Science Robotics, and PLOS ONE
-- Conference Reviewer for HRI, RO-MAN, ICSR, IROS, and ICRA 
+- Journal reviewer for IJRR, TSNRE, RA-L, Science Robotics, and PLOS ONE
+- Conference reviewer for HRI, RO-MAN, ICSR, IROS, and ICRA 
 - Merit Badge University Director at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2019); lead a team to organize a two-day conference for teaching 300 boy-scouts.
 - Service Vice President at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2018); planning over 3000 person-hours of commmunity service opportunities.
 
