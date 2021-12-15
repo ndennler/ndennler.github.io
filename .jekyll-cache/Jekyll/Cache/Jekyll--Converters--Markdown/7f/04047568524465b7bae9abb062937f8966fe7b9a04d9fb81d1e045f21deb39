@@ -1,36 +1,28 @@
----
-layout: post
-title:  "An Exploration of Light and Identity"
-date:   2019-05-15 08:00:00
-blurb: "My journey as a figure skater uwu."
-og_image: /assets/img/content/post-example/Banner.jpg
----
-
-As part of my humanities requirement at my undergraduate instutution, Worcester 
+I"�<p>As part of my humanities requirement at my undergraduate instutution, Worcester 
 Polytechnic Institute, we were tasked with deeply pursuing (taking four classes) 
 in one area. My area of focus was in art, and specifically computer animation 
 and 3D modeling. As part of the final requirement, we needed to take a capstone 
-class. I was particularly drawn to the class "light art" since it was the natural
-progression of taking virtual art to the physical world.
+class. I was particularly drawn to the class “light art” since it was the natural
+progression of taking virtual art to the physical world.</p>
 
-Throughout the class, I explored the nebulous concept of identity through the 
+<p>Throughout the class, I explored the nebulous concept of identity through the 
 use of arbitrary archetypes. I imagined a world where identity was reduced to
 solely astrological signs, where assignment to social strata are entirely random.
-Though there is a lack of choice in how the circumstances of one's birth affect 
+Though there is a lack of choice in how the circumstances of one’s birth affect 
 their future prospects in astrology, there is a subtle comfort in the expected 
 randomness of the assignment process. In contrast to contemporary society, where
 there is an expected hierarchy, these Star People represent diverse and varied
-aspects of the same cosmic unity.
+aspects of the same cosmic unity.</p>
 
-I explored the contrast between Cancer and Leo, who are temporally neighboring 
+<p>I explored the contrast between Cancer and Leo, who are temporally neighboring 
 signs, but represent vastly different personalities. Visually they present a 
 strong juxtaposition, but both contain lights that pulsate at the same rate and
-the partial or total obfuscation of the wearer's face (stripping them of their 
+the partial or total obfuscation of the wearer’s face (stripping them of their 
 original identity). This theme will be repeated in future designs of other 
 astrological characters to reinforce their sameness despite their unique 
-dsipositions.
+dsipositions.</p>
 
-The final images for the Cancer and Leo characters are shown here:
+<p>The final images for the Cancer and Leo characters are shown here:</p>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -38,51 +30,51 @@ The final images for the Cancer and Leo characters are shown here:
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 9</div>
-    <img src="{{ "/assets/img/content/la/cancer1.jpg" | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/cancer1.jpg" style="width:100%" />
     <!-- <div class="text">Pearl Mask</div> -->
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 9</div>
-    <img src="{{ "/assets/img/content/la/cancer2.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/cancer2.jpg" style="width:100%" />
     <!-- <div class="text">Tuesday Bluesday</div> -->
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 9</div>
-    <img src="{{ "/assets/img/content/la/cancer3.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/cancer3.jpg" style="width:100%" />
     <!-- <div class="textdark">I Sing the Body(suit) Electric</div> -->
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">4 / 9</div>
-    <img src="{{ "/assets/img/content/la/cancer4.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/cancer4.jpg" style="width:100%" />
     <!-- <div class="text">Casual Friday</div> -->
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">5 / 9</div>
-    <img src="{{ "/assets/img/content/la/leo1.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/leo1.jpg" style="width:100%" />
     <!-- <div class="text">Clothes Are Modern</div> -->
   </div>
   <div class="mySlides fade">
     <div class="numbertext">6 / 9</div>
-    <img src="{{ "/assets/img/content/la/leo2.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/leo2.jpg" style="width:100%" />
     <!-- <div class="text">Clothes Are Modern</div> -->
   </div>
   <div class="mySlides fade">
     <div class="numbertext">7 / 9</div>
-    <img src="{{ "/assets/img/content/la/leo3.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/leo3.jpg" style="width:100%" />
     <!-- <div class="text">Clothes Are Modern</div> -->
   </div>
   <div class="mySlides fade">
     <div class="numbertext">8 / 9</div>
-    <img src="{{ "/assets/img/content/la/leo4.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/leo4.jpg" style="width:100%" />
     <!-- <div class="text">Clothes Are Modern</div> -->
   </div>
   <div class="mySlides fade">
     <div class="numbertext">9 / 9</div>
-    <img src="{{ "/assets/img/content/la/leo5.jpg"  | absolute_url }}" style="width:100%">
+    <img src="http://localhost:4000/assets/img/content/la/leo5.jpg" style="width:100%" />
     <!-- <div class="text">Clothes Are Modern</div> -->
   </div>
 
@@ -91,7 +83,7 @@ The final images for the Cancer and Leo characters are shown here:
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<br>
+<p><br /></p>
 
 <!-- The dots/circles -->
 <div style="text-align:center">
@@ -106,11 +98,9 @@ The final images for the Cancer and Leo characters are shown here:
   <span class="dot" onclick="currentSlide(9)"></span>
 </div>
 
-
-For a more thorough documentation of the progression of this project, I direct
+<p>For a more thorough documentation of the progression of this project, I direct
 you to the <a href="http://www.joshuarosenstock.com/teaching/lightart-d19/author/nsdennler/">
-archives of this course</a>.
-
+archives of this course</a>.</p>
 
 <script>
   var slideIndex = 1;
@@ -143,4 +133,6 @@ function showSlides(n) {
 }
 </script>
 
-<link rel="stylesheet" href="{{ "/assets/css/slideshow.css" | absolute_url }}"/>
+<link rel="stylesheet" href="http://localhost:4000/assets/css/slideshow.css" />
+
+:ET
