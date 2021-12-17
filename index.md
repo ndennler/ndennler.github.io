@@ -14,7 +14,7 @@ profile_picture:
 </p>
 
 <p>
-  I previously received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from Worcester Polytechnic Institute. In my spare time, you can find me find me figure skating in Pasadena, designing and sewing garments in my living room, or running around the streets of LA. If you want to see me do any of these things (and more!), check out my Miscellany section!
+  I previously received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating in Pasadena, designing and sewing garments in my living room, or running around the streets of LA. If you want to see me do any of these things (and more!), check out my Miscellany section!
 </p>
 
 <hr style="background-color:#e8e8e8;border:none;height:1px;">
