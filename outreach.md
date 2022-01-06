@@ -5,6 +5,12 @@ layout: default
 ## Teaching
 
 <p>
+<b>CSCI 566: Deep Learning and Its Applications, at University of Southern California</b><br>
+<i>Teaching Assistant</i><br>
+I provided instruction on topics related to deep learning, starting with the basics of backpropagation, gradient descent, recurrent layers, and convolutional layers. We then teach students how to apply these concepts to computer vision, natural language processing, and reinforcement learning.
+</p>
+
+<p>
 <b>CSCI 445: Introduction to Robotics, at University of Southern California</b><br>
 <i>Teaching Assistant</i><br>
 I provided instruction on topics related to using sensors, effectors, basic control theory, control architectures, localization, and motion planning.
