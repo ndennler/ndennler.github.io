@@ -24,11 +24,19 @@ Publications
 
 <p>
   <small>
+  <b>Designing Robot Identity: the Role of Voice Appearance, and Task on Robot Gender Perception </b><br>
+  <i>Nathaniel Dennler</i>, Mina Kian, Stefanos Nikolaidis, and Maja Matarić. <br>
+  International Journal on Social Robotics (IJSR), <i>Under Preperation</i>.<br>
+  </small>
+</p>
+
+<p>
+  <small>
   <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
   <i>Nathaniel Dennler</i>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, and Maja Matarić. <br>
   Transactions on Human-Robot Interaction (THRI), <i>Under Review</i>.<br>
   </small>
-  [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
+  [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
 </p>
 
 <p>
@@ -37,7 +45,7 @@ Publications
   <i>Nathaniel Dennler</i>, Eura Shin, Maja Matarić, and Stefanos Nikolaidis. <br>
   2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).<br>
   </small>
-  [<a href="https://ieeexplore.ieee.org/abstract/document/9515466">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
+  [<a href="https://ieeexplore.ieee.org/document/9636768">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
 </p>
 
 <p>
@@ -46,5 +54,5 @@ Publications
   <i>Nathaniel Dennler</i>, Catherine Yunis, Jonathan Realmuto, Terence Sanger, Stefanos Nikolaidis, and Maja Matarić. <br>
   2021 30th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN).<br>
   </small>
-  [<a href="https://stefanosnikolaidis.net/">pdf</a>] <!-- [<a href="https://stefanosnikolaidis.net/">presentation</a>] -->
+  [<a href="https://ieeexplore.ieee.org/document/9515466">pdf</a>]
 </p>
