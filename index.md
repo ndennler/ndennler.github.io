@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  Hello hello! I am Nathan Dennler, a 3rd year Ph.D. Candidate studying Human-Robot Interaction at the University of Southern California. I reside in the <a href="https://icaros.usc.edu/">Interactive and Collaborative Autonomous Robotics (ICAROS) Lab</a> and the <a href="https://uscinteractionlab.web.app/">Interaction Lab</a>. I am co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. I explore the ways in which robots can adapt to different end-users to maximally align with their social and functional goals. 
+  Hello hello! I am Nathan Dennler, a Ph.D. Candidate studying Human-Robot Interaction at the University of Southern California. I reside in the <a href="https://icaros.usc.edu/">Interactive and Collaborative Autonomous Robotics (ICAROS) Lab</a> and the <a href="https://uscinteractionlab.web.app/">Interaction Lab</a>. I am co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. I explore the ways in which robots can adapt to different end-users to maximally align with their social and functional goals. 
 </p>
 
 <p>
@@ -24,6 +24,14 @@ Publications
 
 <p>
   <small>
+  <b> Non-use Assessment in Three Dimensions with a Robotic Arm </b><br>
+  <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzzman, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
+  Frontiers in Robotics, <i>Under Preperation</i>.<br>
+  </small>
+</p>
+
+<p>
+  <small>
   <b>Designing Robot Identity: the Role of Voice Appearance, and Task on Robot Gender Perception </b><br>
   <i>Nathaniel Dennler</i>, Mina Kian, Stefanos Nikolaidis, and Maja Matarić. <br>
   International Journal on Social Robotics (IJSR), <i>Under Preperation</i>.<br>
@@ -34,9 +42,9 @@ Publications
   <small>
   <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
   <i>Nathaniel Dennler</i>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, and Maja Matarić. <br>
-  Transactions on Human-Robot Interaction (THRI), <i>Under Review</i>.<br>
+  2022 ACM Transactions on Human-Robot Interaction (THRI).<br>
   </small>
-  [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
+  [<a href="https://dl.acm.org/doi/abs/10.1145/3550489">pdf</a>] [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
 </p>
 
 <p>
