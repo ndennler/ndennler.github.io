@@ -38,6 +38,6 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 
 
 ## Press
-* <a href=(https://viterbischool.usc.edu/news/2023/06/usc-computer-science-student-makes-strides-in-queer-in-ai-movement/">USC Computer Science Student Makes Strides in Queer in AI Movement</a> (June 2023)
+* <a href="https://viterbischool.usc.edu/news/2023/06/usc-computer-science-student-makes-strides-in-queer-in-ai-movement/">USC Computer Science Student Makes Strides in Queer in AI Movement</a> (June 2023)
 * <a href="https://fortune.com/2019/12/11/robot-hair-brushing-elderly/"><i>Daily Trojan:</i> Jump, spin, win: How USC Figure Skating became a successful and supportive team in just a few years</a> (April 2020)
 * <a href="https://fortune.com/2019/12/11/robot-hair-brushing-elderly/"><i>FORTUNE:</i> Hair-Brushing Robot Shows How Artificial Intelligence May Help the Disabled</a> (December 2019)
