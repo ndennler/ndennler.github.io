@@ -42,7 +42,7 @@ Publications
   <small>
   <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
   <i>Nathaniel Dennler</i>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, and Maja Matarić. <br>
-  2022 ACM Transactions on Human-Robot Interaction (THRI).<br>
+  2023 ACM Transactions on Human-Robot Interaction (THRI).<br>
   </small>
   [<a href="https://dl.acm.org/doi/abs/10.1145/3550489">pdf</a>] [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
 </p>
