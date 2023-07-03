@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Life as a Teenage (and older) Figure Skater"
-date:   2005-06-30 08:00:00
+date:   2018-06-30 08:00:00
 blurb: "My journey as a figure skater uwu."
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
