@@ -26,7 +26,7 @@ Publications
   <small>
   <b> Non-use Assessment in Three Dimensions with a Robotic Arm </b><br>
   <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzzman, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
-  Frontiers in Robotics, <i>Under Submission</i>.<br>
+  Science Robotics, <i>Under Submission</i>.<br>
   </small>
 </p>
 
