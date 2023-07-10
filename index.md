@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: ./assets/img/nathan.dennler.small.jpg
+  src: ./assets/img/nathan_dennler_2023.jpg
   alt: photograph of a blond person wearing a blue and white striped shirt staring into the camera.
 ---
 
