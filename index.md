@@ -39,20 +39,6 @@ Journal Papers
   International Journal on Social Robotics (IJSR), <i>Under Preperation</i>.<br>
   </small>
 </p>
-
-<p>
-  <small>
-  <b>Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm. </b><br>
-  <i>Nathaniel Dennler</i>, Eura Shin, Maja Matarić, and Stefanos Nikolaidis. <br>
-  2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).<br>
-  </small>
-  [<a href="https://ieeexplore.ieee.org/document/9636768">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
-</p>
-
-<h3 style="text-align:center;">
-Conference Papers
-</h3>
-
 <p>
   <small>
   <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
@@ -60,6 +46,19 @@ Conference Papers
   2023 ACM Transactions on Human-Robot Interaction (THRI).<br>
   </small>
   [<a href="https://dl.acm.org/doi/abs/10.1145/3550489">pdf</a>] [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
+</p>
+
+
+<h3 style="text-align:center;">
+Conference Papers
+</h3>
+
+<p>
+  <small>
+  <b>The RoSiD Tool: Empowering Users to Design Multimodal Signals for Human-Robot Collaboration. </b><br>
+  <i>Nathaniel Dennler</i>, David Delgado, Daniel Zeng, Stefanos Nikolaidis, and Maja Matarić. <br>
+  2023 18th International Symposium on Experimental Robotics (ISER 2023).<br>
+  </small>
 </p>
 
 <p>
