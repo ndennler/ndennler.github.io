@@ -21,7 +21,7 @@ profile_picture:
 <h2 style="text-align:center;">
 Publications
 </h2>
-<h3 style="text-align:center;">
+<h3 style="text-align:left;">
 Journal Papers
 </h3>
 <p>
@@ -49,7 +49,7 @@ Journal Papers
 </p>
 
 
-<h3 style="text-align:center;">
+<h3 style="text-align:left;">
 Conference Papers
 </h3>
 
