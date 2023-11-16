@@ -21,7 +21,9 @@ profile_picture:
 <h2 style="text-align:center;">
 Publications
 </h2>
-
+<h3 style="text-align:center;">
+Journal Papers
+</h3>
 <p>
   <small>
   <b> Non-use Assessment in Three Dimensions with a Robotic Arm </b><br>
@@ -37,6 +39,19 @@ Publications
   International Journal on Social Robotics (IJSR), <i>Under Preperation</i>.<br>
   </small>
 </p>
+
+<p>
+  <small>
+  <b>Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm. </b><br>
+  <i>Nathaniel Dennler</i>, Eura Shin, Maja Matarić, and Stefanos Nikolaidis. <br>
+  2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).<br>
+  </small>
+  [<a href="https://ieeexplore.ieee.org/document/9636768">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
+</p>
+
+<h3 style="text-align:center;">
+Conference Papers
+</h3>
 
 <p>
   <small>
