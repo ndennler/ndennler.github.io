@@ -30,6 +30,7 @@ Journal Papers
   <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzzman, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
   Science Robotics 8, eadf7723(2023). DOI:<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">10.1126/scirobotics.adf7723</a>.<br>
   </small>
+  [<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">free access</a>]
 </p>
 
 <p>
