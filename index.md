@@ -27,7 +27,7 @@ Journal Papers
 <p>
   <small>
   <b> Non-use Assessment in Three Dimensions with a Robotic Arm </b><br>
-  <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzzman, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
+  <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzman, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
   Science Robotics 8, eadf7723(2023). DOI:<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">10.1126/scirobotics.adf7723</a>.<br>
   </small>
   [<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">free access</a>]
