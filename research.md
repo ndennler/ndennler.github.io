@@ -3,19 +3,21 @@ layout: work
 title: Research Interests
 slug: /work
 items:
-  - title: Perception of Robot Embodiment
+  - title: Social Robot Design
     image:
       src: /assets/img/work/metaphors.png
       alt: image of several robots aligned in order from most abstract dog to most literal dog. The robots from left to right are Domgy, KK-8, Aibo (1999), and Aibo.
-    description: The physical design of a robot suggests expectations of that robot’s functionality for human users and collaborators. When those expectations align with the true capabilities of the robot, interaction with the robot is enhanced. My work in this area evaluates how user expectations are formed through physical robot design.
-  - title: Robot Systems for Physical Assistance
+    description: The physical design of a robot shapes how people expect to interact with it. In this area, I have formed a dataset of social robot embodiments and their social and functional expectations that can be used to inform the design of these robots. I have also shown how clothing design and context affect how people gender robots. I have also helped conduct studies that examine how queer users can be uniquely harmed by AI systems if they are not considered in the design process and how gender-neutral voice use is perceived in robots.
+
+  - title: Assistive Systems and Algorithms
     image:
       src: /assets/img/work/hair.JPG
       alt: image of a robot arm combing a wig.
-    description: This area of work focuses on assisting users with limited mobility with daily tasks. In particular, we introduced an approach for automatic hair combing by a lightweight robot. Hair combing has been a previously unexplored task where robots can partially assist with direct user input. We proposed a modular system for enabling general robot manipulators to assist with a hair-combing task.
-  - title: Combining Social and Physical Assistance for Engaging Physical Therapy
+    description: Because robots are physically embodied they can provide an interface to interact with environments that are not design to accomodate differences in mobility. In this area, I have developed a system for combing hair with a robot that can generate brush strokes from a single click. I have also developed a system to assess nonuse in poststroke participants to gather information that can help with personalized rehabilitation. 
+
+  - title: Learning Human Preferences
     image:
       src: /assets/img/work/tommy_thumb.JPG
       alt: image of a person making a thumbs up gesture to a computer screen with a face.
-    description: This research area focuses on combinging insights from physical assistance and social expectations to create interactions that aid in rehabilitation processes. In one work, we described how a socially assistive robot may help individuals with CP practice non-verbal communicative gestures using an active orthosis in a one-on-one number-guessing game, and described how robots can adapt their personality to increase engagment throughout the interaction.
+    description: Robots have to work in complex social and physical contexts that cannot be anticipated before deployment. To adapt to varied contexts, I have developed a tool to allow end-users to program robot signaling behaviors. I have also shown that user preferences for robot feedback can be clustered from observational data and can help keep participants with cerebral palsy engaged in practicing orthosis use. 
 ---
