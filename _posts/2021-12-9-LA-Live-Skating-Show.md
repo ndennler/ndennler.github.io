@@ -19,13 +19,13 @@ We did the show with the entire skating club as our end-of-semester event. If yo
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="{{ "/assets/img/content/lalive/7T3B8650.jpg" | absolute_url }}" style="width:100%">
+    <img src="{{ "/assets/img/content/lalive/7T3B8650.JPG" | absolute_url }}" style="width:100%">
 
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="{{ "/assets/img/content/lalive/7T3B8659.jpg" | absolute_url }}" style="width:100%">
+    <img src="{{ "/assets/img/content/lalive/7T3B8659.JPG" | absolute_url }}" style="width:100%">
   </div>
 
   <div class="mySlides fade">
