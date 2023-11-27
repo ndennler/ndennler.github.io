@@ -1,7 +1,7 @@
-I"*
+I"+
 <p>LA Live is our annual skating show. This year I choreographed a pairs skating program to the song “Snowman” by Sia with my friend <a href="https://www.lillianzeng.com/about">Lillian Zeng</a>.</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UqVspCbZ7H0?si=PFfCEqjTAyIWY3eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/UqVspCbZ7H0?si=PFfCEqjTAyIWY3eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
 
 <p><br />
 We did the show with the entire skating club as our end-of-semester event. If you are in LA in December, come check it out. The performance is on the opening day of the skating rink!</p>
@@ -12,13 +12,13 @@ We did the show with the entire skating club as our end-of-semester event. If yo
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="http://localhost:4000/assets/img/content/lalive/7T3B8650.jpg" style="width:100%" />
+    <img src="http://localhost:4000/assets/img/content/lalive/7T3B8650.JPG" style="width:100%" />
 
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="http://localhost:4000/assets/img/content/lalive/7T3B8659.jpg" style="width:100%" />
+    <img src="http://localhost:4000/assets/img/content/lalive/7T3B8659.JPG" style="width:100%" />
   </div>
 
   <div class="mySlides fade">

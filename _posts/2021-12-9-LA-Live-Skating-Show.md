@@ -8,7 +8,7 @@ og_image: /assets/img/content/post-example/Banner.jpg
 
 LA Live is our annual skating show. This year I choreographed a pairs skating program to the song "Snowman" by Sia with my friend <a href="https://www.lillianzeng.com/about">Lillian Zeng</a>.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UqVspCbZ7H0?si=PFfCEqjTAyIWY3eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/UqVspCbZ7H0?si=PFfCEqjTAyIWY3eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br>
 We did the show with the entire skating club as our end-of-semester event. If you are in LA in December, come check it out. The performance is on the opening day of the skating rink!
