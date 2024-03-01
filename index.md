@@ -26,7 +26,7 @@ Journal Papers
 </h3>
 <p>
   <small>
-  <b> Non-use Assessment in Three Dimensions with a Robotic Arm </b><br>
+  <b> A metric for characterizing the arm nonuse workspace in poststroke individuals using a robot arm </b><br>
   <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzman, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
   Science Robotics 8, eadf7723(2023). DOI:<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">10.1126/scirobotics.adf7723</a>.<br>
   </small>
@@ -37,7 +37,7 @@ Journal Papers
   <small>
   <b>Designing Robot Identity: the Role of Voice Appearance, and Task on Robot Gender Perception </b><br>
   <i>Nathaniel Dennler</i>, Mina Kian, Stefanos Nikolaidis, and Maja Matarić. <br>
-  International Journal on Social Robotics (IJSR), <i>Under Preperation</i>.<br>
+  International Journal on Social Robotics (IJSR), <i>Under Submission</i>.<br>
   </small>
 </p>
 <p>
