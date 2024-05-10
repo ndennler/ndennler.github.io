@@ -6,20 +6,20 @@ profile_picture:
 ---
 
 <p>
-  Hello hello! I am Nathan Dennler, a Ph.D. Candidate studying Human-Robot Interaction at the University of Southern California. I reside in the <a href="https://icaros.usc.edu/">Interactive and Collaborative Autonomous Robotics (ICAROS) Lab</a> and the <a href="https://uscinteractionlab.web.app/">Interaction Lab</a>. I am co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. I explore the ways in which robots can adapt to different end-users to maximally align with their individual social and functional goals. 
+  I am Nathan Dennler, a final-year Ph.D. Candidate studying Human-Robot Interaction at the University of Southern California. I reside in the <a href="https://icaros.usc.edu/">Interactive and Collaborative Autonomous Robotics (ICAROS) Lab</a> and the <a href="https://uscinteractionlab.web.app/">Interaction Lab</a>. I am co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. I explore how robots can adapt to different end-users to maximally align with their individual social and functional goals. 
 </p>
 
 <p>
-  I address this problem in two key ways: (1) through the identification of differences in users' preferences, and (2) through algorithmic methods to allow robots to adapt to users' preferences. I have previously explored how differences in robot design can shape users' expectations of how robots should behave. I have also developed interfaces to allow users to specify their preferred robot behaviors. For a more in-depth breakdown of my work, head over to my <a href="/research">Research page</a>.
+  I address this problem in two key ways: (1) through physical adaptation of robot designs, and (2) through behavioral adaptation that aligns robot policies with users' preferences. I evaluate my approaches for these directions with specific user populations--especially assistive robots for users with limited mobility. For a more in-depth breakdown of my work, head over to my <a href="/research">Research page</a>.
 </p>
 
 <p>
-  I previously received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating in Pasadena, designing and sewing garments in my living room, running around the streets of LA, or whacking/waacking/punking in any of the aforementioned spaces. If you want to see me do any of these things (and more!), check out my <a href="/miscellany">Miscellany page</a>!
+  I previously received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating in Pasadena, designing and sewing garments in my living room, running around the streets of LA, or whacking/waacking/punking in any of the aforementioned spaces. If you want to see me do any of these things (and more!), check out my <a href="/miscellany">Miscellany page</a>.
 </p>
 
 <hr style="background-color:#e8e8e8;border:none;height:1px;">
 <h2 style="text-align:center;">
-Publications
+Selected Publications
 </h2>
 <h3 style="text-align:left;">
 Journal Papers
@@ -33,13 +33,6 @@ Journal Papers
   [<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">free access</a>]
 </p>
 
-<p>
-  <small>
-  <b>Designing Robot Identity: the Role of Voice Appearance, and Task on Robot Gender Perception </b><br>
-  <i>Nathaniel Dennler</i>, Mina Kian, Stefanos Nikolaidis, and Maja Matarić. <br>
-  International Journal on Social Robotics (IJSR), <i>Under Submission</i>.<br>
-  </small>
-</p>
 <p>
   <small>
   <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
