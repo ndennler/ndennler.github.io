@@ -30,6 +30,7 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 
 ## Volunteering
 - Current volunteer with <a href="https://www.southlarobotics.com/"> South LA Robotics</a>
+- Initiated the Summer Robotics Research Seminar at USC to teach visiting undergraduate and high school students about different research topics within robotics.
 - Journal reviewer for IJRR, TSNRE, RA-L, Science Robotics, and PLOS ONE
 - Conference reviewer for HRI, RO-MAN, ICSR, IROS, and ICRA 
 - Merit Badge University Director at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2019); lead a team to organize a two-day conference for teaching 300 boy-scouts.
