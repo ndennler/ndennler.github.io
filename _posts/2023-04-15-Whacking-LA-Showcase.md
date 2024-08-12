@@ -14,7 +14,7 @@ The idea for this dance came up very organically one day, when Colleen (who is a
 
 So naturally, we created something that was as vapid, lacking in substance, and saying almost nothing about anything that matters. We played the role of two party girlies waking up from the night before. If you find some deeper commentary on the destructive party culture of Los Angeles, that is on you. We only had fun on the mind.
 
-<iframe width="100%" height="315" src="https://youtu.be/g-ku_TY-WkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g-ku_TY-WkM?si=ZqhLWQOoeSQjRhOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <br>
 Performing this in front of a bunch of friends from the whacking community was very validating. One of my favorite memories was when Viktor approached us after the performance and thanked us for making him feel less crass about talking about the origins of the term "punking" (which has to do with the word spunk, and I will leave it at that for now). Doing this very chill event really pushed me to develop something, and I look forward to creating more dances in the coming years!
