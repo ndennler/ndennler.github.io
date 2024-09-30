@@ -17,7 +17,7 @@ items:
     
     - title: Design metaphors for understanding user expectations of socially interactive robot embodiments
       image:
-        src: /assets/img/work/MUFaSAA.JPG
+        src: /assets/img/work/MUFaSAA.jpg
         alt: image of various robot embodiments illustrating design metaphors.
       authors: <b>Nathaniel Dennler</b>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, Maja J. Matarić
       conference: 2023 ACM Transactions on Human-Robot Interaction
