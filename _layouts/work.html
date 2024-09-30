@@ -11,27 +11,244 @@
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
 
-          {% for item in page.items %}
-          <div class="work-item">
-            <img
-              src="{{ item.image.src | absolute_url }}"
-              alt="{{ item.image.alt }}"
-              class="work-bubble"
-              style="margin-top: 10px;"
-            />
-            <span class="work-text">
-              <strong>{{ item.title }}</strong>
-              &mdash;
-              {{ item.description }}
-            </span>
+          <!-- Tag Filter Section -->
+          <div class="filter">
+            <button class='filter-btn active' data-filter="all">
+              <img src="/assets/img/icons/All-logo.png" alt="All" class="filter-logo" /> All
+            </button>
+            {% assign all_tags = "" %}
+            {% for item in page.items %}
+              {% assign all_tags = all_tags | append: item.tags | append: "," %}
+            {% endfor %}
+            {% assign unique_tags = all_tags | split: "," | uniq %}
+            {% for tag in unique_tags %}
+              <button class='filter-btn' data-filter="{{ tag }}">
+                <img src="/assets/img/icons/{{ tag }}-logo.png" alt="{{ tag }} logo" class="filter-logo" /> {{ tag }}
+              </button>
+            {% endfor %}
           </div>
-          {% endfor %}
+
+          <!-- Project Items List -->
+          <ul class="projects-list">
+            {% for item in page.items %}
+            <li class="work-item" data-tags="{{ item.tags }}">
+              <div class="project-details" style="display: flex; align-items: center;"> <!-- Added flexbox for vertical centering -->
+                <div>
+                  <img
+                    src="{{ item.image.src | absolute_url }}"
+                    alt="{{ item.image.alt }}"
+                    class="work-bubble"
+                    style="object-fit: cover; border-radius: 8px;"
+                  />
+                </div>
+            
+                <div style="padding-left: 15px;">
+                  <h2 style="margin: 5px 0; font-size: 1.4em;">{{ item.title }}</h2>
+                  <p style="margin: 2px 0; font-size: 0.9em;">{{ item.authors }}</p>
+                  <p style="margin: 2px 0; font-size: 0.9em;"><i>{{ item.conference }}</i></p>
+          
+                  <!-- Tags Section -->
+                  <div class="tags" style="justify-content: left; display: flex; flex-wrap: wrap;">
+                    {% assign tag_array = item.tags | split: "," %}
+                    {% for tag in tag_array %}
+                      <span class="tag" style="margin: 5px;">
+                        <button class="tag-button">
+                          <img src="/assets/img/icons/{{ tag }}-logo.png" alt="{{ tag }} logo" class="tag-logo" /> {{ tag }}
+                        </button>
+                      </span>
+                    {% endfor %}
+                  </div>
+          
+                  <!-- Conditional Award and Buttons -->
+                  <div style="margin-top: 10px; display: flex; justify-content: left; flex-wrap: wrap; align-items: center;">
+                    {% if item.award %}
+                    <span style="margin: 0 5px;">✤</span> <!-- Decorative bullet point -->
+                      <p style="color: #ffcc00; font-weight: bold; margin: 0 10px 0 0;">{{ item.award }}</p>
+                    {% endif %}
+                    
+                    {% if item.website %}
+                    <span style="margin: 0 5px;">✤</span> <!-- Decorative bullet point -->
+                    <a href="{{ item.website }}" class="button" style="margin: 5px;" target="_blank">Website</a>
+                    {% endif %}
+                    
+                    {% if item.paper %}
+                    <span style="margin: 0 5px;">✤</span> <!-- Decorative bullet point -->
+                    <a href="{{ item.paper }}" class="button" style="margin: 5px;" target="_blank">Paper</a>
+                    {% endif %}
+                    
+                    {% if item.video %}
+                    <span style="margin: 0 5px;">✤</span> <!-- Decorative bullet point -->
+                    <a href="{{ item.video }}" class="button" style="margin: 5px;" target="_blank">Video</a>
+                    {% endif %}
+
+                    <span style="margin: 0 5px;">✤</span> <!-- Decorative bullet point -->
+                  </div>
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
 
     {% include footer.html %}
-
     {% include foot.html %}
+
+    <!-- JavaScript for Filtering -->
+    <script>
+      const filterList = document.querySelector(".filter");
+const filterButtons = filterList.querySelectorAll(".filter-btn");
+const projects = document.querySelectorAll(".work-item");
+
+let projectIndex = 0;
+
+projects.forEach((project) => {
+  project.style.viewTransitionName = `proj-${++projectIndex}`;
+});
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", (e) => {
+    // Fix: Ensure that the button itself is always the target
+    const targetButton = e.target.closest('.filter-btn');
+    const projectCategory = targetButton.getAttribute("data-filter");
+
+    if (!document.startViewTransition) {
+      updateActiveButton(targetButton);
+      filterProjects(projectCategory);
+    }
+
+    document.startViewTransition(() => {
+      updateActiveButton(targetButton);
+      filterProjects(projectCategory);
+    });
+  });
+});
+
+function updateActiveButton(newButton) {
+  filterList.querySelector(".active").classList.remove("active");
+  newButton.classList.add("active");
+}
+
+function filterProjects(filter) {
+  projects.forEach((project) => {
+    const projectTags = project.getAttribute("data-tags").split(',');
+
+    if (filter === "all" || projectTags.includes(filter)) {
+      project.removeAttribute("hidden");
+    } else {
+      project.setAttribute("hidden", "");
+    }
+  });
+}
+
+    </script>
+
+    <style>
+      /* Increased size for images */
+  .work-bubble {
+   
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    border-radius: 8px;
+  }
+
+  /* Flex container for project details */
+  .project-details {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Image container gets a larger flex-basis */
+  .project-details > div:first-child {
+    flex-basis: 35%; /* Increase the percentage to give more space to the image */
+  }
+
+  /* Content (text) section adjustments */
+  .project-details > div:last-child {
+    flex-basis: 65%; /* This gives a relative width to the text part */
+    padding-left: 20px; /* Extra space between image and text */
+  }
+      
+      /* Filter button styles */
+      .filter-btn {
+        padding: 8px 12px;
+        margin: 5px;
+        background-color: #86a79c;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex; /* Use flex for logo and text alignment */
+        align-items: center; /* Center vertically */
+        transition: background-color 0.3s ease;
+      }
+
+      .filter-btn:hover {
+        background-color: #ff91af; /* Hover color */
+      }
+
+      .filter-logo {
+        width: 20px; /* Logo size */
+        height: 20px; /* Logo size */
+        margin-right: 5px; /* Space between logo and text */
+      }
+
+      /* Project list styles */
+      .projects-list {
+        list-style: none; /* Remove default list styles */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+      }
+
+      /* Individual project item styles */
+      .work-item {
+        margin-bottom: 20px; /* Space between items */
+        opacity: 1; /* Default opacity */
+        transition: opacity 0.3s ease; /* Transition for fade effect */
+        border: 1px solid #ccc; /* Outline */
+        border-radius: 8px; /* Rounded corners */
+        padding: 15px; /* Reduced inner padding */
+        background-color: white; /* Background color */
+      }
+
+      .work-item[hidden] {
+        display: none; /* Hide items */
+      }
+
+      /* Centering tags */
+      .filter {
+        display: flex;
+        justify-content: center; /* Center buttons */
+        flex-wrap: wrap; /* Allow wrapping of buttons */
+        margin-bottom: 20px; /* Space below filter */
+      }
+
+      /* Tags section styles */
+      .tags {
+        margin-top: 10px; /* Space above tags */
+        display: flex; /* Use flex for tags */
+        flex-wrap: wrap; /* Allow tags to wrap */
+      }
+
+      .tag {
+        margin-right: 10px; /* Space between tags */
+      }
+
+      .tag-button {
+        display: inline-flex; /* Inline flex for logo and text */
+        align-items: center; /* Center items vertically */
+        padding: 5px 10px; /* Inner padding */
+        background-color: #e0e0e0; /* Tag background */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: default; /* Not clickable */
+      }
+
+      .tag-logo {
+        width: 16px; /* Set logo width */
+        height: 16px; /* Set logo height */
+        margin-right: 5px; /* Space between logo and text */
+      }
+    </style>
   </body>
 </html>
