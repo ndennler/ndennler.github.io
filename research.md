@@ -21,7 +21,7 @@ items:
         alt: image of various robot embodiments illustrating design metaphors.
       authors: <b>Nathaniel Dennler</b>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, Maja J. Matarić
       conference: 2023 ACM Transactions on Human-Robot Interaction
-      tags: Embodiment,Personalization
+      tags: Embodiment,Personalization,Tool
       website: https://interaction-lab.github.io/robot-metaphors/
       paper: https://dl.acm.org/doi/10.1145/3550489
       video: http://example.com/design_metaphors_video.mp4
