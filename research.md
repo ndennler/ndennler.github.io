@@ -60,6 +60,15 @@ items:
 
 
     # Additional Papers
+    - title: Designing Identity: The Role of Voice, Clothing, and Task on Robot Gender Perception
+      image:
+        src: /assets/img/work/robogender.png
+        alt: Queer in Robotics Logo.
+      authors: <b>Nathaniel Dennler</b>, Mina Kian, Stefanos Nikolaidis, Maja Matarić
+      conference: Under Submission at IJSR
+      tags: Embodiment,Customization
+      paper: https://arxiv.org/pdf/2404.00494
+    
     - title: Launching Queer in Robotics
       image:
         src: /assets/img/work/qir.png
