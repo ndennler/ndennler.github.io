@@ -56,11 +56,9 @@ items:
       tags: Behavior,Personalization
       paper: https://ieeexplore.ieee.org/abstract/document/9515466
 
-      
-
 
     # Additional Papers
-    - title: Designing Identity: The Role of Voice, Clothing, and Task on Robot Gender Perception
+    - title: "Designing Identity: The Role of Voice, Clothing, and Task on Robot Gender Perception"
       image:
         src: /assets/img/work/robogender.png
         alt: Queer in Robotics Logo.
