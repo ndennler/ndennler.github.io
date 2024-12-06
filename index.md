@@ -59,7 +59,7 @@ Conference Papers
   <small>
   <b>The RoSiD Tool: Empowering Users to Design Multimodal Signals for Human-Robot Collaboration. </b><br>
   <i>Nathaniel Dennler</i>, David Delgado, Daniel Zeng, Stefanos Nikolaidis, and Maja Matarić. <br>
-  <i>2023 18th International Symposium on Experimental Robotics (ISER 2023)</i>i>.<br>
+  <i>2023 18th International Symposium on Experimental Robotics (ISER 2023)</i>.<br>
   [<a href="https://arxiv.org/pdf/2401.03088">pdf</a>]
   </small>
 </p>
