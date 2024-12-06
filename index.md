@@ -28,7 +28,7 @@ Journal Papers
   <small>
   <b> A metric for characterizing the arm nonuse workspace in poststroke individuals using a robot arm </b><br>
   <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzman, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
-  Science Robotics 8, eadf7723(2023). DOI:<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">10.1126/scirobotics.adf7723</a>.<br>
+  <i>Science Robotics</i> 8, eadf7723(2023). DOI:<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">10.1126/scirobotics.adf7723</a>.<br>
   </small>
   [<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">free access</a>]
 </p>
@@ -37,7 +37,7 @@ Journal Papers
   <small>
   <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
   <i>Nathaniel Dennler</i>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, and Maja Matarić. <br>
-  2023 ACM Transactions on Human-Robot Interaction (THRI).<br>
+  <i>2023 ACM Transactions on Human-Robot Interaction (THRI)</i>.<br>
   </small>
   [<a href="https://dl.acm.org/doi/abs/10.1145/3550489">pdf</a>] [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
 </p>
@@ -49,9 +49,18 @@ Conference Papers
 
 <p>
   <small>
+  <b>Contrastive Learning from Exploratory Actions: Leveraging Natural Interactions for Preference Elicitation. </b><br>
+  <i>Nathaniel Dennler</i>, Stefanos Nikolaidis, and Maja Matarić. <br>
+  <i>2025 IEEE/ACM Conference on Human-Robot Interaction (HRI 2025)</i>.<br>
+  </small>
+</p>
+
+<p>
+  <small>
   <b>The RoSiD Tool: Empowering Users to Design Multimodal Signals for Human-Robot Collaboration. </b><br>
   <i>Nathaniel Dennler</i>, David Delgado, Daniel Zeng, Stefanos Nikolaidis, and Maja Matarić. <br>
-  2023 18th International Symposium on Experimental Robotics (ISER 2023).<br>
+  <i>2023 18th International Symposium on Experimental Robotics (ISER 2023)</i>i>.<br>
+  [<a href="https://arxiv.org/pdf/2401.03088">pdf</a>]
   </small>
 </p>
 
@@ -59,7 +68,7 @@ Conference Papers
   <small>
   <b>Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm. </b><br>
   <i>Nathaniel Dennler</i>, Eura Shin, Maja Matarić, and Stefanos Nikolaidis. <br>
-  2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).<br>
+  <i>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>.<br>
   </small>
   [<a href="https://ieeexplore.ieee.org/document/9636768">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
 </p>
@@ -68,7 +77,7 @@ Conference Papers
   <small>
   <b>Personalizing User Engagement Dynamics in a Non-Verbal Communication Game for Cerebral Palsy. </b><br>
   <i>Nathaniel Dennler</i>, Catherine Yunis, Jonathan Realmuto, Terence Sanger, Stefanos Nikolaidis, and Maja Matarić. <br>
-  2021 30th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN).<br>
+  <i>2021 30th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN)</i>.<br>
   </small>
   [<a href="https://ieeexplore.ieee.org/document/9515466">pdf</a>]
 </p>
