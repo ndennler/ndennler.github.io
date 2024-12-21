@@ -26,7 +26,35 @@ items:
       paper: https://dl.acm.org/doi/10.1145/3550489
       video: http://example.com/design_metaphors_video.mp4
 
+    - title: "Designing Identity: The Role of Voice, Clothing, and Task on Robot Gender Perception"
+      image:
+        src: /assets/img/work/gender_study.jpg
+        alt: Robots dressed in different kinds of clothing.
+      authors: <b>Nathaniel Dennler</b>, Mina Kian, Stefanos Nikolaidis, Maja Matarić
+      conference: 2025 Springer International Journal on Social Robotics
+      tags: Embodiment,Customization
+      paper: https://arxiv.org/pdf/2404.00494
+
     # MY CONFERENCE PAPERS
+
+    - title: "Contrastive Learning from Exploratory Actions: Leveraging Natural Interactions for Preference Elicitation."
+      image:
+        src: /assets/img/work/clea.gif
+        alt: Video of Kuri helping a person find items.
+      authors: <b>Nathaniel Dennler</b>, Stefanos Nikolaidis, Maja Matarić
+      conference: 2025 ACM/IEEE Conference on Human-Robot Interaction (HRI)
+      tags: Behavior,Customization
+      website: https://interaction-lab.github.io/CLEA/
+      paper: https://interaction-lab.github.io/CLEA/static/pdfs/CLEA.pdf
+
+    - title: "User Experience in Preference-Based Optimization of Reward Functions for Assistive Robots."
+      image:
+        src: /assets/img/work/cmaesig.gif
+        alt: Video of blossom robots enacting user-designed gestures.
+      authors: <b>Nathaniel Dennler</b>, Zhonghao Shi, Stefanos Nikolaidis, Maja Matarić
+      conference: 2024 International Symposium on Robotics Research (ISRR)
+      tags: Behavior,Customization
+      paper: https://arxiv.org/pdf/2411.11182
 
     - title: "The RoSiD Tool: Empowering Users to Design Multimodal Signals"
       image:
@@ -56,16 +84,8 @@ items:
       tags: Behavior,Personalization
       paper: https://ieeexplore.ieee.org/abstract/document/9515466
 
-
     # Additional Papers
-    - title: "Designing Identity: The Role of Voice, Clothing, and Task on Robot Gender Perception"
-      image:
-        src: /assets/img/work/gender_study.jpg
-        alt: Queer in Robotics Logo.
-      authors: <b>Nathaniel Dennler</b>, Mina Kian, Stefanos Nikolaidis, Maja Matarić
-      conference: Under Submission at IJSR
-      tags: Embodiment,Customization
-      paper: https://arxiv.org/pdf/2404.00494
+  
     
     - title: Launching Queer in Robotics
       image:
@@ -94,7 +114,7 @@ items:
       conference: 2024 Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI LBR)
       tags: Behavior,Customization
       website: https://interaction-lab.github.io/CLEA/
-      paper: https://interaction-lab.github.io/CLEA/static/pdfs/CLEA.pdf
+      paper: https://dl.acm.org/doi/10.1145/3610978.3640745
       video: https://www.youtube.com/watch?v=IOJ1xDy0DEE&ab_channel=NateDennler
 
 
