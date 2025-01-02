@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: ./assets/img/nathan_dennler_2023.jpg
+  src: ./assets/img/nathan_dennler_2023.jpeg
   alt: photograph of a blond person wearing wireframe glasses and a white mockneck staring into the camera.
 ---
 
@@ -73,11 +73,11 @@ Conference Papers
   [<a href="https://ieeexplore.ieee.org/document/9636768">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
 </p>
 
-<p>
+<!-- <p>
   <small>
   <b>Personalizing User Engagement Dynamics in a Non-Verbal Communication Game for Cerebral Palsy. </b><br>
   <i>Nathaniel Dennler</i>, Catherine Yunis, Jonathan Realmuto, Terence Sanger, Stefanos Nikolaidis, and Maja Matarić. <br>
   <i>2021 30th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN)</i>.<br>
   </small>
   [<a href="https://ieeexplore.ieee.org/document/9515466">pdf</a>]
-</p>
+</p> -->
