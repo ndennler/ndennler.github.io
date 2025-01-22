@@ -28,15 +28,20 @@ I provided instruction on topics related to differential drive kinematics, proba
 I provided instruction on topics related to forward kinematics, inverse kinematics, controls, and dynamics of robotic arms. We also covered computer vision techniques, with the end project being <a href="https://youtu.be/BBPJMZfkOqI">a robotic arm that sorts colored weights</a>. 
 </p>
 
+## Organizing
+- [AAAI Spring Symposium on Child-AI Interaction](https://sites.google.com/iu.edu/childai-aaai2025/home)
+- [Queer in Robotics @ ICRA (part of the inaugural ICRA Diversity Day)](https://sites.google.com/view/queerinrobotics/events/queer-in-robotics-icra-2024?authuser=0)
+- [Workshop on Acoustic Sensing and Representations for Robotics](https://sites.google.com/view/roboacoustics) 
+
 ## Volunteering
-- Current volunteer with <a href="https://www.southlarobotics.com/"> South LA Robotics</a>
+- Co-Founder of <a href="https://sites.google.com/view/queerinrobotics/">Queer in Robotics</a>
+- Core Organizer with <a href="https://www.queerinai.com/">Queer in AI</a>
 - Initiated the Summer Robotics Research Seminar at USC to teach visiting undergraduate and high school students about different research topics within robotics.
-- Journal reviewer for IJRR, TSNRE, RA-L, Science Robotics, and PLOS ONE
-- Conference reviewer for HRI, RO-MAN, ICSR, IROS, and ICRA 
+- 2021–2023 volunteer with <a href="https://www.southlarobotics.com/"> South LA Robotics</a>
+- Journal reviewer for IJRR, IJSR, T-HRI, TSNRE, RA-L, Science Robotics, and PLOS ONE
+- Conference reviewer for HRI, RO-MAN, ICSR, KDD, IROS, and ICRA 
 - Merit Badge University Director at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2019); lead a team to organize a two-day conference for teaching 300 boy-scouts.
 - Service Vice President at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2018); planning over 3000 person-hours of commmunity service opportunities.
-
-
 
 ## Press
 * <a href="https://viterbischool.usc.edu/news/2024/04/usc-robotics-open-house-2024-inspires-next-generation-innovators/"> USC Robotics Open House 2024 Inspires Next Generation Innovators </a> (April 2024)
