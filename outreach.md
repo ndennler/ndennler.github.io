@@ -31,7 +31,8 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 ## Organizing
 - [AAAI Spring Symposium on Child-AI Interaction (AAAI Spring Symposium Series)](https://sites.google.com/iu.edu/childai-aaai2025/home)
 - [Queer in Robotics @ ICRA (part of the inaugural ICRA Diversity Day)](https://sites.google.com/view/queerinrobotics/events/queer-in-robotics-icra-2024?authuser=0)
-- [Workshop on Acoustic Sensing and Representations for Robotics (ICRA 2025)](https://sites.google.com/view/roboacoustics) 
+- [Workshop on Acoustic Sensing and Representations for Robotics (ICRA 2025)](https://sites.google.com/view/roboacoustics)
+- [CRAFT session on Community Ownership of Queer Data and Models](https://facctconference.org/2022/acceptedcraft#colab) 
 
 ## Volunteering
 - Co-Founder of <a href="https://sites.google.com/view/queerinrobotics/">Queer in Robotics</a>
