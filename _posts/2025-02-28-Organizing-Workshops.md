@@ -98,6 +98,8 @@ After you follow these steps, you will have a complete workshop proposal (of cou
 
 If your workshop is accepted, there are a few more steps to take. You will need to actually send out the CfP you mentioned earlier, coordinate with the speakers to make sure there are no scheduling conflicts, and set up a page to submit papers to the workshop (the typical options are CMT, OpenReview, EasyChair, or you can manually email the papers but other options are probably better).
 
+If the workshop is not accepted, you won't have any more work to do! You can always submit the idea to a different conference with some updates. Luckily you will have already done most of the work, and you can just reach out to new people.
+
 ## Meta notes on organizing
 
 One quality of a good leader is the ability to delegate. If you are leading the workshop submission, I have found it helpful to create roles and tasks and assign them to specific people. The roles that naturally emerge for workshops are: web chair (1 person), send out CfPs chair (1 person), set up the submission page chair (1 person), and coordinate with speakers chairs (1+ people). Assign specific due dates for tasks that are 3+ days from when they *really* need to be done and check back in with the task owner on the due date. The person leading the workshop should be prepared to fulfill any role that does not happen for any reason. 
