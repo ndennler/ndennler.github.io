@@ -10,7 +10,7 @@ profile_picture:
 </p>
 
 <p>
-  I address this problem through three research domains to align robots with users' preferences: (1) robot design, (2) physical interaction, and (3) social interaction. I evaluate my approaches using real robots that interact with real users to address real problems—especially assistive robots for users with limited mobility. For a complete listing of my work, head over to my <a href="/research">Research page</a>.
+  I address this problem through two research directions to align robots with users' preferences: (1) learning user models and robot policies through implicit communication (e.g., interface interactions, engagement, or robot design) and (2) developing data-efficient algorithms that allow users to quickly and intuitively customize robot policies. I evaluate my approaches using real robots that interact with real users to address real problems—especially assistive robots for users with limited mobility. For a complete listing of my work, head over to my <a href="/research">Research page</a>.
 </p>
 
 <p>
