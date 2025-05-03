@@ -48,6 +48,17 @@ items:
       website: https://interaction-lab.github.io/CLEA/
       paper: https://interaction-lab.github.io/CLEA/static/pdfs/CLEA.pdf
 
+    - title: "Soft and Compliant Contact-Rich Hair Manipulation and Care."
+      image:
+        src: /assets/img/work/soft_hair_care.gif
+        alt: Video of MOE-Hair performing a variety of hair care tasks on different users.
+      authors: Uksang Yoo, <b>Nathaniel Dennler</b>, Eliot Xing, Maja Matarić, Stefanos Nikolaidis, Jeffrey Ichnowski, Jean Oh
+      conference: 2025 ACM/IEEE Conference on Human-Robot Interaction (HRI)
+      tags: Behavior,Customization,Award
+      award: Best Systems Paper Finalist
+      website: https://moehair.github.io/
+      paper: https://moehair.github.io/static/pdfs/paper.pdf
+
     - title: "User Experience in Preference-Based Optimization of Reward Functions for Assistive Robots."
       image:
         src: /assets/img/work/cmaesig.gif
