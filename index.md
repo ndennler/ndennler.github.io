@@ -58,6 +58,7 @@ Conference Papers
   <i>Nathaniel Dennler</i>, Stefanos Nikolaidis, and Maja Matarić. <br>
   <i>2025 IEEE/ACM Conference on Human-Robot Interaction (HRI 2025)</i>.<br>
   </small>
+  [<a href="https://dl.acm.org/doi/10.5555/3721488.3721584">pdf</a>] [<a href="https://interaction-lab.github.io/CLEA/">website</a>]
 </p>
 
 <p>
