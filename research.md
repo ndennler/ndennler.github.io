@@ -43,7 +43,7 @@ items:
         alt: Video of Kuri helping a person find items.
       authors: <b>Nathaniel Dennler</b>, Stefanos Nikolaidis, Maja Matarić
       conference: 2025 ACM/IEEE Conference on Human-Robot Interaction (HRI)
-      tags: Behavior,Customization
+      tags: Behavior,Customization,Award
       website: https://interaction-lab.github.io/CLEA/
       paper: https://interaction-lab.github.io/CLEA/static/pdfs/CLEA.pdf
 
