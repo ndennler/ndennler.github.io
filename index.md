@@ -5,9 +5,9 @@ profile_picture:
   alt: photograph of a blond person wearing wireframe glasses and a white mockneck staring into the camera.
 ---
 
-<p>
-  I am Nathan Dennler, a Human-Robot Interaction researcher. I received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. My research moves toward a future where users can quickly and efficiently adapt generic robots to align with their individual preferences, values, and needs. 
-</p>
+
+  I am Nathan Dennler, a robotics researcher. I received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. My research creates _embodied interfaces_ that enable users can quickly and efficiently adapt generic robots to align with their individual preferences, values, and needs. 
+
 
 <p>
   I address this problem through two research directions to align robots with users' preferences: (1) learning user models and robot policies through implicit communication (e.g., interface interactions, engagement, or robot design) and (2) developing data-efficient algorithms that allow users to quickly and intuitively customize robot policies. I evaluate my approaches using real robots that interact with real users to address real problems—especially assistive robots for users with limited mobility. For a complete listing of my work, head over to my <a href="/research">Research page</a>. I also enjoy building open-source tools (e.g., <a href="https://pylips.readthedocs.io/en/latest/">PyLips</a> and <a href="https://interaction-lab.github.io/robot-metaphors/">The MUFaSAA Dataset</a>) to support robotics researchers and hobbyists.
