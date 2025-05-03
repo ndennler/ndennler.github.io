@@ -44,6 +44,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Stefanos Nikolaidis, Maja Matarić
       conference: 2025 ACM/IEEE Conference on Human-Robot Interaction (HRI)
       tags: Behavior,Customization,Award
+      award: Best Technical Paper Finalist
       website: https://interaction-lab.github.io/CLEA/
       paper: https://interaction-lab.github.io/CLEA/static/pdfs/CLEA.pdf
 
