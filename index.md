@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 
-  I am Nathan Dennler, a robotics researcher. I received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. My research creates _embodied interfaces_ that enable users can quickly and efficiently adapt generic robots to align with their individual preferences, values, and needs. 
+  I am Nathan Dennler, a robotics researcher. I received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. My research creates _embodied interfaces_ that enable users to quickly and efficiently adapt generic robots to align with their individual preferences, values, and needs. 
 
 
 <p>
