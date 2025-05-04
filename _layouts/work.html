@@ -33,7 +33,7 @@
 
           <!-- Project Items List -->
           <ul class="projects-list">
-            {% assign sorted_items = page.items | sort: 'date' | reverse %}
+            {% assign sorted_items = page.items | sort_natural: 'date' | reverse %}
             {% assign current_year = "" %}
           
             {% for item in sorted_items %}
