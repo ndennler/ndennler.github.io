@@ -357,6 +357,91 @@ ul.projects-list > li.year-separator:first-child {
 .year-separator + .work-item {
    /* Adjust if needed */
 }
+
+@media (max-width: 768px) {
+
+/* Adjust wrapper for smaller screens */
+.page-content .wrapper {
+  max-width: 95% !important;
+  padding: 0 10px !important;
+  /* Adjust padding for smaller screens */
+}
+
+/* Stack image and text on mobile */
+.project-details {
+  flex-direction: column;
+  align-items: stretch;
+  /* Stretch items to fill the container */
+}
+
+.project-image-container {
+  flex-basis: auto;
+  /* Remove flex-basis */
+  width: 100%;
+  /* Image container takes full width */
+  margin-bottom: 15px;
+  /* Space between image and text */
+}
+
+.project-text-container {
+  flex-basis: auto;
+  /* Remove flex-basis */
+  width: 100%;
+  /* Text container takes full width */
+  padding-left: 0;
+  /* Remove left padding */
+}
+
+.work-bubble {
+  max-height: 30vh;
+  /* Adjust max height for mobile if needed */
+  width: 100%;
+  /* Image takes full width of its container */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+/* Adjust filter button layout for mobile */
+.filter {
+  justify-content: center;
+  /* Center buttons on mobile */
+}
+
+.filter-btn {
+  flex: 1 1 auto;
+  /* Allow buttons to grow and shrink */
+  min-width: unset;
+  /* Remove min-width constraint */
+  width: 100%;
+  /* Make buttons take full width */
+  margin: 5px 0;
+  /* Adjust margins for stacking */
+}
+
+/* Adjust tag button layout for mobile if needed */
+.tags {
+  justify-content: center;
+  /* Center tags on mobile */
+}
+
+.tag {
+  margin-right: 5px;
+  /* Reduce space between tags */
+  margin-bottom: 5px;
+  /* Ensure space when wrapping */
+}
+
+/* Adjust project links layout for mobile */
+.project-links {
+  justify-content: center; /* Center links on mobile */
+  gap: 5px; /* Reduce gap between links/buttons */
+}
+
+ .project-links .link-separator {
+  display: none; /* Hide separators on mobile for a cleaner look */
+ }
+}
+
     </style>
   </body>
 </html>
