@@ -33,7 +33,20 @@
 
           <!-- Project Items List -->
           <ul class="projects-list">
-            {% for item in page.items %}
+            {% assign sorted_items = page.items | sort: 'date' | reverse %}
+            {% assign current_year = "" %}
+          
+            {% for item in sorted_items %}
+              {% assign item_year = item.date | date: "%Y" %}
+        
+              {% if item_year != current_year %}
+                {% assign current_year = item_year %} 
+                <li class="year-separator"> 
+                  <h2 class="year-heading">{{ current_year }}</h2>
+                  <span class="year-line"></span>
+                </li>
+              {% endif %}
+
             <li class="work-item" data-tags="{{ item.tags }}">
               <div class="project-details" style="display: flex; align-items: center;"> <!-- Added flexbox for vertical centering -->
                 <div>
@@ -150,9 +163,14 @@ function filterProjects(filter) {
     <style>
       /* Increased size for images */
   .work-bubble {
-   
+    max-height: 25vh;  /* or whatever max height you want */
+    height: auto;
+    width: auto;
     object-fit: cover; /* Ensures the image maintains its aspect ratio */
     border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Flex container for project details */
@@ -172,23 +190,61 @@ function filterProjects(filter) {
     padding-left: 20px; /* Extra space between image and text */
   }
       
-     /* Filter button styles */
+/* General Button Styles */
 .filter-btn {
+  flex: 0 0 22%; /* Adjust percentage based on desired buttons per row */
+  min-width: 120px; /* Ensures buttons don't become too narrow on smaller screens */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  display: inline-flex; /* Enables Flexbox layout */
+  align-items: center;  /* Vertically centers content */
+  justify-content: center; /* Horizontally centers content */
   padding: 8px 12px;
   margin: 5px;
   background-color: #a7c9bb;
-  color: rgb(0, 0, 0);
+  color: #000;
   border: 1px solid #ccc;
   border-radius: 20px;
   cursor: pointer;
-  display: flex;
-  align-items: center; /* Center vertically */
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
-.filter-btn:hover {
-  background-color: #ff91af; /* Hover color */
+.filter-btn,
+.tag-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #86a79c; /* Primary blue */
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  margin-top: 10px ;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
+
+/* Hover and Active States */
+.filter-btn:hover{
+  background-color: #ff91af;
+  transform: translateY(-2px);
+}
+
+.filter-btn:active,
+.tag-button:active {
+  background-color: #ff91af;
+  transform: translateY(0);
+}
+
+/* Active Filter Button */
+.filter-btn.active {
+  background-color: #ff91af; /* Success green */
+}
+
 
 /* Ensure the filter logos have consistent sizes */
 .filter-logo {
@@ -205,7 +261,6 @@ function filterProjects(filter) {
   margin-right: 5px;
   object-fit: contain;
 }
-
 
       /* Project list styles */
       .projects-list {
@@ -228,6 +283,11 @@ function filterProjects(filter) {
       .work-item[hidden] {
         display: none; /* Hide items */
       }
+      .page-content .wrapper {
+        max-width: 60% !important;
+        padding: 0 20px !important;
+        margin: 0 auto !important;
+      }
 
       /* Centering tags */
       .filter {
@@ -248,21 +308,55 @@ function filterProjects(filter) {
         margin-right: 10px; /* Space between tags */
       }
 
-      .tag-button {
-        display: inline-flex; /* Inline flex for logo and text */
-        align-items: center; /* Center items vertically */
-        padding: 5px 10px; /* Inner padding */
-        background-color: #e0e0e0; /* Tag background */
-        border: 1px solid #ccc; /* No border */
-        border-radius: 15px; /* Rounded corners */
-        cursor: default; /* Not clickable */
-      }
 
       .tag-logo {
         width: 16px; /* Set logo width */
         height: 16px; /* Set logo height */
         margin-right: 5px; /* Space between logo and text */
       }
+
+      /* --- Year Heading Separator --- */
+.year-separator {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0 25px 0; /* Increased top/bottom margin for more spacing */
+  width: 100%; /* Ensure the container takes full width */
+
+  /* Flexbox properties */
+  display: flex;           /* Make this li a flex container */
+  align-items: baseline;   /* Align the baseline of the text and the line */
+  gap: 1em;              /* Add space between the year text and the line start (adjust as needed) */
+}
+
+h2.year-heading {
+  /* Style the heading text */
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #ff91af;
+  margin: 0; /* Remove default h2 margins */
+  padding: 0;
+  border-bottom: none; /* IMPORTANT: Remove the previous border */
+  flex-shrink: 0;      /* Prevent the year text itself from shrinking */
+  white-space: nowrap; /* Prevent the year number from wrapping */
+}
+
+.year-line {
+  /* Style the extending line */
+  flex-grow: 1;          /* Allow this element to grow and fill remaining space */
+  height: 3px;           /* Thickness of the line */
+  background-color: #ff91af; /* Color of the line */
+  /* transform: translateY(-2px); */ /* Optional: Fine-tune vertical position relative to baseline if needed */
+}
+
+/* Remove top margin for the very first year separator in the list */
+ul.projects-list > li.year-separator:first-child {
+    margin-top: 0;
+}
+
+/* Ensure work-items following a heading don't have extra top margin */
+.year-separator + .work-item {
+   /* Adjust if needed */
+}
     </style>
   </body>
 </html>
