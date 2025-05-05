@@ -4,7 +4,17 @@ title:
 slug: /work
 items:
 
-    # JOURNAL PAPERS
+
+    - title: PyLips an Open-Source Python Package to Expand Participation in Embodied Interaction
+      image:
+        src: /assets/img/work/pylips.png
+        alt: Video of a robot arm assisting a poststroke individual.
+      authors: <b>Nathaniel Dennler</b>, Evan Torrence, Uksang Yoo, Stefanos Nikolaidis, Maja J. Matarić
+      conference: ACM User Interface Software and Technology (UIST) Demo Track
+      date: 2024-10-01
+      tags: Customization,Behavior,Tool
+      paper: https://dl.acm.org/doi/10.1145/3672539.3686747
+      website: https://pylips.readthedocs.io/
 
     - title: A metric for characterizing the arm nonuse workspace in poststroke individuals using a robot arm
       image:
