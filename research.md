@@ -4,11 +4,21 @@ title:
 slug: /work
 items:
 
+    - title: "Modeling Personalized Difficulty of Rehabilitation Exercises Using Causal Trees"
+      image:
+        src: /assets/img/work/difficulties.png
+        alt: Personlized difficulty map for reaching exercises.
+      authors: <b>Nathaniel Dennler</b>, Zhonghao Shi, Uksang Yoo, Stefanos Nikolaidis, Maja Matarić
+      conference: IEEE/RAS International Conference on Rehabilitation Robotics (ICORR)
+      date: 2025-05-01
+      tags: Personalization,Behavior
+      paper: https://arxiv.org/pdf/2505.04583
+      website: https://github.com/interaction-lab/stroke-exercise-difficulty-estimation
 
-    - title: PyLips an Open-Source Python Package to Expand Participation in Embodied Interaction
+    - title: "PyLips: an Open-Source Python Package to Expand Participation in Embodied Interaction"
       image:
         src: /assets/img/work/pylips.png
-        alt: Video of a robot arm assisting a poststroke individual.
+        alt: Faces with different facial expressions and different colors.
       authors: <b>Nathaniel Dennler</b>, Evan Torrence, Uksang Yoo, Stefanos Nikolaidis, Maja J. Matarić
       conference: ACM User Interface Software and Technology (UIST) Demo Track
       date: 2024-10-01

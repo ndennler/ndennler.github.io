@@ -96,9 +96,54 @@ If you find google sites to be too restrictive, you can also fork other reposito
 
 After you follow these steps, you will have a complete workshop proposal (of course you may need to add other specific items that the call for workshop proposals specifies). After you press the submit button, you are all set. The next step is to simply wait.
 
-If your workshop is accepted, there are a few more steps to take. You will need to actually send out the CfP you mentioned earlier, coordinate with the speakers to make sure there are no scheduling conflicts, and set up a page to submit papers to the workshop (the typical options are CMT, OpenReview, EasyChair, or you can manually email the papers but other options are probably better).
+If your workshop is accepted, there are a few more steps to take, outlined below. You will need to actually send out the CfP you mentioned earlier, coordinate with the speakers to make sure there are no scheduling conflicts, and set up a page to submit papers to the workshop (the typical options are CMT, OpenReview, EasyChair, or you can manually email the papers but other options are probably better).
 
 If the workshop is not accepted, you won't have any more work to do! You can always submit the idea to a different conference with some updates. Luckily you will have already done most of the work, and you can just reach out to new people.
+
+
+## Between Acceptance and The Event
+
+Each of the activities in a workshop have a few steps to complete to ensure that the logistics on the day of the workshop go smoothly. These are roughly ordered chonologically in terms of when you have to start thinking about these logistics.
+
+### Advertising the Event
+
+Shortly after the acceptance notification is when you can begin sending emails to advertising the event. A lot of the details for this have already been created in the "A plan to encourage particpation" section of the proposal. The easiest way to structure this email is to take an existing call for participation email from a previous workshop and modify it with your information. You can create something from scratch, but these call for paper emails are largely symbolic and if they follow existing structures people are more likely to make sense of them quickly. 
+
+### Setting up the Submission Portal
+
+This step can also be done shortly after the acceptance notification. The easiest way to handle the submissions are through the open-source platforms like OpenReview or CMT. Sometimes the venue will provide you one (e.g., AAAI Symposia provide you with a easychair link). These platforms have documentation on setting up the submission portals, though I may write a future guide on this too.
+
+### Speaker Sessions
+
+Many of the speakers have already accepted to participate in the workshop by the time of the proposal. However, some schedule conflicts may arise due to other workshops being accepted or other personal reasons. It is a good idea to reach out to the speakers 1--2 months before the workshop date to confirm their participation. Within this email, you can also ask about any scheduling constraints that may need particular speakers to be switched around.
+
+About a week before the event, it is a good idea to also send a quick reminder email to share the location and time information for each invited speaker. Speakers typically use their own computers to present their slides. This allows speakers to update their slides or talks slightly based on other presentations / discussions that occur during the workshop.
+
+### Panel Discussions
+
+Communication for panelists is roughly the same as communicating with keynote speakers. The added item for preparation for a panel discussion is to create a set of questions to ask the panelists to spark a discussion or debate. 
+
+One of the organizers of the workshop should be assigned as the panel moderator. The role of the panel moderator is to ask these questions. A moderator should conduct the panel discussion like a semi-structured interview, where questions are selected from thee set of the questions based on the responses to the previous questions. For example, if there is a question on how a personal experience shaped the panel's research a panelist may mention something about rehabilitation. If there is another question in the set of moderator questions that relate to rehabilitation, then that should be the next question to ask even if it is not directly the next question in the list. The panel should feel like a discussion instead of an interrogation.
+
+### For Authors of Accepted Papers
+
+The paper presentations and poster session planning can be lumped into one email to send to the authors of accepted submissions.
+
+#### Lightning / Paper Talks
+
+To facilitate the transition between speakers and minimize any A/V issues at the conference venue, it is a good idea to request authors of accepted papers to send their presentations to you ahead of time to be compiled into a single presntation. A typical deadline is the Friday before the conference. Invariably some people miss the deadline, and you will have to follow up individually. By setting a deadline, a lot of the work on compiling the presentations can be done ahead of time.
+
+Select a particular format (e.g., google slides, powerpoint, etc.) and request that the attendees send you slides within that format. Roboticists are generally big on using videos, so PowerPoint is often the go-to choice so that there aren't any permissions issues with playing these videos. 
+
+#### Poster Session
+
+Poster sessions are generally less involved. The conference venue will usually have the poster boards set up, and they will ask you if you need them. In your email to the authors of accepted papers, clarify that they are responsible for printing their posters and bringing them to the conference (which is a standard practice). If there are size restriction on the size of these posters, be sure to mention that in the email too.
+
+### Opening / Closing Remarks (Day of Logistics)
+
+In the opening remarks, prepare a short slideshow that summarizes the workshop proposal. Most of the content that has been written for the Abstract and Introduction can be re-used for this purpose. In addition to describing the motivation for having the workshop, there is often a slide of all of the organizers, and a slide that contains the schedule for the rest of the day. 
+
+Usually by the time the closing remarks come around, the workshop participants have been actively listening for nearly a whole day. The closing remarks can be brief. Often they are a summary of the overarching concepts discussed in the workshop, and a time to thank all of the speakers and authors of submitted papers to the workshop. If there are any awards offered by the workshop, they are often discussed during the clsoing remarks.
 
 ## Meta notes on organizing
 

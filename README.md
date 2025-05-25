@@ -145,3 +145,9 @@ gem build bay_jekyll_theme.gemspec
 ```sh
 gem push bay_jekyll_theme-1.x.x.gem
 ```
+
+
+If you are having trouble viewing posts locally, you need to replace the default url generated (something like `http://0.0.7.232/09/17/Opening-Ginsburg`) with something like the following:
+http://localhost:4000//2024/09/17/Opening-Ginsburg
+
+In otherwords you have to use localhost, the two "//", and add the year to the url. It works fine when you deploy the page, but this is a problem with the local deployment. I am sure it can be fixed, but this solution is low effort enough.

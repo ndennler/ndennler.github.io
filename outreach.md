@@ -45,6 +45,7 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 - Service Vice President at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2018); planning over 3000 person-hours of commmunity service opportunities.
 
 ## Press
+* <a href="https://viterbischool.usc.edu/news/2025/05/building-a-better-world-dean-yannis-c-yortsos-tells-graduates-they-will-make-a-difference/"> Building a Better World: Dean Yannis Yortsos Tells Graduates They Will Make a Difference </a> (May 2025)
 * <a href="https://viterbischool.usc.edu/news/2024/04/usc-robotics-open-house-2024-inspires-next-generation-innovators/"> USC Robotics Open House 2024 Inspires Next Generation Innovators </a> (April 2024)
 * <a href="https://viterbischool.usc.edu/news/2023/11/new-robotic-system-assesses-mobility-after-stroke"> New Robotic System Assesses Mobility After Stroke</a> (November 2023)
 * <a href="https://viterbischool.usc.edu/news/2023/06/usc-computer-science-student-makes-strides-in-queer-in-ai-movement/">USC Computer Science Student Makes Strides in Queer in AI Movement</a> (June 2023)
