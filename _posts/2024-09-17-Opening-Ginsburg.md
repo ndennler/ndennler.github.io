@@ -18,24 +18,34 @@ My goal for this event was to practice pattern making for morphologies that are 
 
 <div style="text-align:center">
 <img src="{{ "/assets/img/content/gcs/reference-image.jpg" | absolute_url }}" style="width:50%">
+<br>The 2021 Fall/Winter Balmain dress that inspired the dress's design. <br><br>
 </div>
 
 I didn't anticipate receiving funding for this side project so I got really crafty with materials. I was able to find some stretchy metallic fabric in the LA Fashion district, but given that I was going to likely iterate on the pattern I create, I wanted to find some low-cost alternatives to create mocks of the dress. To create the pattern, I used a roll of unwaxed parchment paper to draw general shapes that I could cut out and use as a template. Typically people who sew would use a muslin, but even that was outside of my budget. Luckily I found a crafty alternative at the local grocery store: disposable tablecloths. Often these come in a roll for large family barbecues and are made from a flexible plastic that I found quite easy to sew through. THe downside is that any tensile stress stretches the plastic out and destroys the seams. This doesn't really matter for mocking designs, but it would be terrible if you were really hoping to wear the plastic mock in daily life.
 
 <div style="text-align:center">
 <img src="{{ "/assets/img/content/gcs/qt-mock.jpg" | absolute_url }}" style="width:50%">
+<br>Preparing the mock dress.<br><br>
 </div>
 
 QT Robot was designed to interact with children, however this event was primarily for adults. To modify QT's embodiment to align with the setting, I used a few sewing tricks. I used quilt batting to pad out the shoulders to have less child-like proportions since this event would primarily be adults instead of children interacting with the robot. I also made the dress slightly longer than QT's legs, and placed QT on top of a book so that the robot's legs appeared slightly more proportional to an adult's legs.
 
 <div style="text-align:center">
 <img src="{{ "/assets/img/content/gcs/qt-dress.jpeg" | absolute_url }}" style="width:50%">
+<br>QT's dress with embodiment modifications.<br><br>
 </div>
+
+I tested the robot to make sure heat dissipation was not a major problem. It got slightly warm after a few hours, but it was well within safe operating temperatures. This is an important consideration for robots wearing clothes, as the electrical engineers don't expect you to be putting extra heat insulation on the robot in the general case. 
+
+# Showing the Robots Off
 
 On the day of the event, Amy brought in some Blossoms that had some lovely platiunum outfits, and I set up the newly outfitted QT Robot to play the thumbs-up thumbs-down number guessing game with passersby.
 
 <div style="text-align:center">
-<img src="{{ "/assets/img/content/gcs/amy-and-blossoms.jpeg" | absolute_url }}" style="width:50%">
-<img src="{{ "/assets/img/content/gcs/qt-deployed.jpeg" | absolute_url }}" style="width:50%">
+<img src="{{ "/assets/img/content/gcs/amy-and-blossoms.jpeg" | absolute_url }}" style="width:80%">
+<br>Amy with the Platinum Blossoms.<br>
+<img src="{{ "/assets/img/content/gcs/qt-deployed.jpeg" | absolute_url }}" style="width:80%">
+<br>QT Robot in Ginsberg Hall.<br><br>
 </div>
 
+Overall, people enjoyed the personality that these clothes added to the robot. I believe that these additions elicited interaction with the robot, but we will need to run a controlled experiment one day to verify this hypothesis :).
