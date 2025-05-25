@@ -359,87 +359,93 @@ ul.projects-list > li.year-separator:first-child {
 }
 
 @media (max-width: 768px) {
+  /* Adjust wrapper for smaller screens */
+  .page-content .wrapper {
+    max-width: 95% !important;
+    padding: 0 10px !important;
+  }
 
-/* Adjust wrapper for smaller screens */
-.page-content .wrapper {
-  max-width: 95% !important;
-  padding: 0 10px !important;
-  /* Adjust padding for smaller screens */
-}
+  /* Stack image and text on mobile */
+  .project-details {
+    flex-direction: column;
+    align-items: center; /* Center align items */
+  }
+  
+  /* Fix for the image container */
+  .project-details > div:first-child {
+    width: 100%;
+    flex-basis: auto;
+    margin-bottom: 15px;
+  }
 
-/* Stack image and text on mobile */
-.project-details {
-  flex-direction: column;
-  align-items: stretch;
-  /* Stretch items to fill the container */
-}
+  /* Fix for the text container */
+  .project-details > div:last-child {
+    width: 100%;
+    flex-basis: auto;
+    padding-left: 0; /* Remove left padding on mobile */
+  }
 
-.project-image-container {
-  flex-basis: auto;
-  /* Remove flex-basis */
-  width: 100%;
-  /* Image container takes full width */
-  margin-bottom: 15px;
-  /* Space between image and text */
-}
+  /* Change image sizing on mobile */
+  .work-bubble {
+    max-height: 30vh; /* Remove max height constraint */
+    max-width: 100%; /* Make sure it doesn't exceed container width */
+    width: auto; /* Allow width to adjust naturally */
+    height: auto; /* Allow height to adjust naturally */
+    object-fit: contain; /* Change to contain to ensure the whole image is visible */
+  }
+  
+  /* Keep links on one line and resize them */
+  div[style*="margin-top: 10px"] {
+    flex-wrap: nowrap !important; /* Prevent wrapping to keep on one line */
+  }
+  
+  a.button {
+    font-size: 0.9em; /* Smaller font size for mobile */
+    padding: 4px 6px; /* Reduced padding */
+    margin: 2px; /* Smaller margins */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  /* Adjust filter button layout for mobile */
+  .filter {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px;
+  }
 
-.project-text-container {
-  flex-basis: auto;
-  /* Remove flex-basis */
-  width: 100%;
-  /* Text container takes full width */
-  padding-left: 0;
-  /* Remove left padding */
-}
+  .filter-btn {
+    flex: none; /* Remove flex properties */
+    min-width: auto; /* Remove min-width constraint */
+    width: 100%; /* Make buttons take full width of grid cell */
+    margin: 0; /* Remove margins since we're using grid gap */
+    font-size: 0.9em; /* Slightly smaller font for mobile */
+    padding: 8px 12px; /* Adjust padding */
+  }
 
-.work-bubble {
-  max-height: 30vh;
-  /* Adjust max height for mobile if needed */
-  width: 100%;
-  /* Image takes full width of its container */
-  height: auto;
-  /* Maintain aspect ratio */
-}
+  /* Adjust tag button layout for mobile if needed */
+  .tags {
+    justify-content: center;
+    /* Center tags on mobile */
+  }
 
-/* Adjust filter button layout for mobile */
-.filter {
-  justify-content: center;
-  /* Center buttons on mobile */
-}
+  .tag {
+    margin-right: 5px;
+    /* Reduce space between tags */
+    margin-bottom: 5px;
+    /* Ensure space when wrapping */
+  }
 
-.filter-btn {
-  flex: 1 1 auto;
-  /* Allow buttons to grow and shrink */
-  min-width: unset;
-  /* Remove min-width constraint */
-  width: 100%;
-  /* Make buttons take full width */
-  margin: 5px 0;
-  /* Adjust margins for stacking */
-}
+  /* Adjust project links layout for mobile */
+  .project-links {
+    justify-content: center; /* Center links on mobile */
+    gap: 5px; /* Reduce gap between links/buttons */
+  }
 
-/* Adjust tag button layout for mobile if needed */
-.tags {
-  justify-content: center;
-  /* Center tags on mobile */
-}
-
-.tag {
-  margin-right: 5px;
-  /* Reduce space between tags */
-  margin-bottom: 5px;
-  /* Ensure space when wrapping */
-}
-
-/* Adjust project links layout for mobile */
-.project-links {
-  justify-content: center; /* Center links on mobile */
-  gap: 5px; /* Reduce gap between links/buttons */
-}
-
- .project-links .link-separator {
-  display: none; /* Hide separators on mobile for a cleaner look */
- }
+   .project-links .link-separator {
+    display: none; /* Hide separators on mobile for a cleaner look */
+   }
 }
 
     </style>
