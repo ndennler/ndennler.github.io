@@ -16,7 +16,7 @@ profile_picture:
 </p>
 
 ## News:
-- May 2025: I was awarded the [Order of the Laurel and the Palm](https://studentrecognition.usc.edu/the-awards/) at USC for leadership and service that shaped the campus and the world at large! 
+- May 2025: I was awarded the [Order of the Laurel and the Palm](https://studentrecognition.usc.edu/the-awards/) at USC for leadership and service that shaped the campus and the world at large. 
 - Apr 2025: I was selected for the [2025 RSS Pioneers](https://sites.google.com/view/rsspioneers2025/) Cohort!
 - Apr 2025: [My dissertation](https://digitallibrary.usc.edu/Share/300et24g16gsvbm51yw2u1r3kg11chvt) was nominated for Best Dissertation at USC!
 - Mar 2025: I was nominated for two best papers ([Technical](https://dl.acm.org/doi/10.5555/3721488.3721584) and [Systems](https://dl.acm.org/doi/10.5555/3721488.3721564)) at the _IEEE/ACM Conference on Human-Robot Interaction_!
