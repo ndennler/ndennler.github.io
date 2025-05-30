@@ -40,8 +40,8 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 - Core Organizer with <a href="https://www.queerinai.com/">Queer in AI</a>
 - Initiated the Summer Robotics Research Seminar at USC to teach visiting undergraduate and high school students about different research topics within robotics.
 - 2021–2023 volunteer with <a href="https://www.southlarobotics.com/"> South LA Robotics</a>
-- Journal reviewer for IJRR, IJSR, T-HRI, TSNRE, RA-L, Science Robotics, and PLOS ONE
-- Conference reviewer for HRI, RO-MAN, ICSR, KDD, IROS, and ICRA 
+- Journal reviewer for IJRR, IJSR, IJHCI, T-HRI, TSNRE, RA-L, Science Robotics, and PLOS ONE
+- Conference reviewer for HRI, RO-MAN, ICSR, KDD, AAAI, ICMI, ICoRR, RSS, IROS, and ICRA 
 - Merit Badge University Director at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2019); lead a team to organize a two-day conference for teaching 300 boy-scouts.
 - Service Vice President at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2018); planning over 3000 person-hours of commmunity service opportunities.
 
