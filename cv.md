@@ -4,6 +4,6 @@
 
 layout: default
 ---
-Last updated March 26th, 2025.
+Last updated July 24th, 2025.
 
 <iframe src="https://ndennler.github.io/assets/docs/DennlerCVJuly24.pdf#navpanes=0&toolbar=0" width="100%" height="700vh"></iframe>
