@@ -2,7 +2,7 @@
 layout: home
 profile_picture:
   src: ./assets/img/nathan_dennler_2023.jpeg
-  alt: photograph of a blond person wearing wireframe glasses and a white mockneck staring into the camera.
+  alt: photograph of a blond person wearing wireframe glasses and a white mockneck.
 ---
 
 
