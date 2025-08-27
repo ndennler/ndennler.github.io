@@ -3,7 +3,7 @@
 
 title: Nathan Dennler
 description: >- # this means to ignore newlines until "baseurl:"
-  Nathan is a Ph.D. Student at the University of Southern California. They are advised by Maja Mataric and Stefanos Nikolaidis.
+  Nathan is a Postdoc at Massachusetts Institute of Technology working with Andreea Bobu. They received their PhD from the University of Southern California working with Maja Matarić and Stefanos Nikolaidis.
 baseurl: "/" # the subpath of the site
 url: "https://ndennler.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/nathan.dennler.small.jpg
