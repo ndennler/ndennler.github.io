@@ -15,6 +15,10 @@ profile_picture:
   I previously received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. Before that, I received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating at Johnson Athletic Center, designing and sewing garments in my living room, running along the Charles, or whacking/waacking/punking in any of the aforementioned spaces. If you want to see me do any of these things (and more!), check out my <a href="/miscellany">Miscellany page</a>.
 </p>
 
+<p style="color: orange; font-weight: bold; text-align:center;">
+  I am on the academic job market for the 2025-2026 cycle!
+</p>
+
 ## News:
 - May 2025: I was awarded the [Order of the Laurel and the Palm](https://studentrecognition.usc.edu/the-awards/) at USC for leadership and service that shaped the campus and the world at large. 
 - Apr 2025: I was selected for the [2025 RSS Pioneers](https://sites.google.com/view/rsspioneers2025/) Cohort!
