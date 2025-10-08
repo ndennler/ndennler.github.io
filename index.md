@@ -11,7 +11,7 @@ profile_picture:
 
   I address this problem through two research directions to align robots with users' preferences: (1) learning user models and robot policies through *implicit* communication (e.g., interface interactions, engagement, or robot design) and (2) developing data-efficient algorithms that allow users to *explicitly* customize robot policies. I evaluate my approaches using real robots that interact with real users to address real problems—especially assistive robots for users with limited mobility. For a complete listing of my work, head over to my <a href="/research">Research page</a>. I also enjoy building open-source tools (e.g., <a href="https://pylips.readthedocs.io/en/latest/">PyLips</a> and <a href="https://interaction-lab.github.io/robot-metaphors/">The MUFaSAA Dataset</a>) to support robotics researchers and hobbyists.
 
-<p style="color: orange; font-weight: bold; text-align:center; font-size: 1.5em;">
+<p style="color: orange; font-weight: bold; text-align:center; font-size: 1.2em;">
   I am on the academic job market for the 2025-2026 cycle!
 </p>
 
