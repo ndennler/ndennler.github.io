@@ -20,6 +20,7 @@ profile_picture:
 
 
 ## News:
+- Sept 2025: I was selected to attend the UC Berkeley [NextProf Nexus program](https://nextprof.engin.umich.edu/nextprof-nexus/).
 - May 2025: I was awarded the [Order of the Laurel and the Palm](https://studentrecognition.usc.edu/the-awards/) at USC for leadership and service that shaped the campus and the world at large. 
 - Apr 2025: I was selected for the [2025 RSS Pioneers](https://sites.google.com/view/rsspioneers2025/) Cohort!
 - Apr 2025: [My dissertation](https://digitallibrary.usc.edu/Share/300et24g16gsvbm51yw2u1r3kg11chvt) was nominated for Best Dissertation at USC!
