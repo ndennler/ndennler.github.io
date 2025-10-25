@@ -2,7 +2,7 @@
 layout: home
 profile_picture:
   src: ./assets/img/nathan_combing.jpeg
-  alt: photograph of a blond person wearing wireframe glasses and a white mockneck.
+  alt: photograph of a blond person controlling a robot to comb hair.
 ---
 
 
