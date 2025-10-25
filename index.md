@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: ./assets/img/nathan_combing.jpg
+  src: ./assets/img/nathan_combing_desaturated.jpg
   alt: photograph of a blond person controlling a robot to comb hair.
 ---
 
