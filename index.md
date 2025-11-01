@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 
-  I am Nathan Dennler, a full-stack roboticist. I am a postdoctoral researcher at the Massachusetts Institute of Technology advised by <a href="https://www.mit.edu/~abobu/">Andreea Bobu</a>. My research enables end users to intuitively specify optimization problems that, when solved, result in robot behaviors that align with the user's specific preferences. I ground the algorithms I develop in manipulation, rehabilitation, and socially assistive applications where real robots interact with real users. 
+  I am Nathan Dennler, a full-stack roboticist. I am a postdoctoral researcher at the Massachusetts Institute of Technology advised by <a href="https://www.mit.edu/~abobu/">Andreea Bobu</a>. My research enables users to intuitively specify optimization problems that, when solved, result in robots that align with that user's specific preferences. I ground the algorithms I develop in manipulation, rehabilitation, and socially assistive applications where real robots interact with real users. 
 
   I address this problem through three pillars: (1) learning human-aligned robot representations from observed user behaviors, (2) identifying constraints through interaction to reduce search complexity, and (3) creating human-in-the-loop optimization algorithms that quickly find a user's preferred robot behaviors in noisy settings. For a complete listing of my work, head over to my <a href="/research">Research page</a>. I also enjoy building open-source tools (e.g., <a href="https://pylips.readthedocs.io/en/latest/">PyLips</a> and <a href="https://interaction-lab.github.io/robot-metaphors/">The MUFaSAA Dataset</a>) to support robotics researchers and hobbyists.
 
