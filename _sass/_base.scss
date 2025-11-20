@@ -90,6 +90,10 @@ li {
   }
 }
 
+b, strong {
+  font-weight: 700;
+}
+
 /**
  * Headings
  */
@@ -99,8 +103,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
-  font-family: "Futura", sans-serif;
+  font-weight: 700;
+  font-family: $base-font-family, "Futura", sans-serif;
 }
 
 h4 {
