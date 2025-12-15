@@ -20,6 +20,9 @@ profile_picture:
 
 
 ## News:
+- Dec 2025: I gave talk at the [Columbia HCI Seminar](https://columbiahci.github.io/#seminar)!
+- Nov 2025: I gave a talk at the Tufts HRI Seminar!
+- Oct 2025: I gave a guest lecture at Yale's [Building Interactive Machines](https://cpsc459-bim.gitlab.io/f25/) course! 
 - Sept 2025: I was selected to attend the UC Berkeley [NextProf Nexus program](https://nextprof.engin.umich.edu/nextprof-nexus/).
 - May 2025: I was awarded the [Order of the Laurel and the Palm](https://studentrecognition.usc.edu/the-awards/) at USC for leadership and service that shaped the campus and the world at large. 
 - Apr 2025: I was selected for the [2025 RSS Pioneers](https://sites.google.com/view/rsspioneers2025/) Cohort!
