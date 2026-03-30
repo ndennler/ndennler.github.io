@@ -22,7 +22,7 @@ profile_picture:
 ## News:
 - Mar 2026: I gave a talk on Robot Faces at the [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/)!
 - Mar 2026: I gave a talk at the [Cornell Robotics Seminar](https://www.cs.cornell.edu/events/robotics-seminar)!
-- Feb 2026: I gave a talk to [Zhi Tan's group](https://zhi.fyi/) at Northeastern! Thank you for having me!
+- Feb 2026: I gave a talk to [Zhi Tan's group](https://zhi.fyi/) at Northeastern!
 - Dec 2025: I gave talk at the [Columbia HCI Seminar](https://columbiahci.github.io/#seminar)!
 - Nov 2025: I gave a talk at the Tufts HRI Seminar!
 - Oct 2025: I gave a guest lecture at Yale's [Building Interactive Machines](https://cpsc459-bim.gitlab.io/f25/) course! 
