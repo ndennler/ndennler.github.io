@@ -3,6 +3,46 @@ layout: work
 title: 
 slug: /work
 items:
+    - title: "Masked Inverse Reinforcement Learning for Language Conditioned Reward Learning"
+      image:
+        src: /assets/img/work/maskedirl_teaser.gif
+        alt: Teaser gif for Masked Inverse Reinforcement Learning.
+      authors: Minyoung Hwang, Alexandra Forsey-Smerek, <b>Nathaniel Dennler</b>, Andreea Bobu
+      conference: IEEE International Conference on Robotics and Automation (ICRA)
+      date: 2026-06-01
+      tags: Behavior,Customization
+      website: https://mit-clear-lab.github.io/Masked-IRL/
+      paper: https://arxiv.org/html/2511.14565v1
+
+    - title: "GIFT: Generalizing Intent for Flexible Test-Time Rewards"
+      image:
+        src: /assets/img/work/gift.png
+        alt: Teaser image for GIFT.
+      authors: Fin Amin, <b>Nathaniel Dennler</b>, Andreea Bobu
+      conference: IEEE International Conference on Robotics and Automation (ICRA)
+      date: 2026-06-01
+      tags: Behavior,Customization
+      website: https://mit-clear-lab.github.io/GIFT/
+      paper: https://arxiv.org/abs/2603.22574
+
+    - title: "Crocheted Capacitive Touch Sensors for Soft Reconfigurable Interfaces"
+      image:
+        src: /assets/img/work/crochetedskin.gif
+        alt: Gif of crocheted capacitive touch sensors.
+      authors: Stephania Castro, Amy O'Connell, Bailey Cislowski, <b>Nathaniel Dennler</b>, Heather Culbertson, Maja Matarić
+      conference: IEEE Haptics Symposium
+      date: 2026-03-29
+      tags: Behavior
+
+    - title: "HRIBench: Benchmarking Vision-Language Models for Real-Time Human Perception in Human-Robot Interaction"
+      image:
+        src: /assets/img/work/HRIBench.png
+        alt: HRIBench benchmark overview.
+      authors: Zhonghao Shi, Enyu Zhao, <b>Nathaniel Dennler</b>, Jingzhen Wang, Xinyang Xu, Kaleen Shrestha, Mengxue Fu, Daniel Seita, Maja Matarić.
+      conference: International Symposium on Experimental Robotics (ISER)
+      date: 2025-07-06
+      tags: Personalization,Behavior
+      paper: https://arxiv.org/pdf/2505.04583
 
     - title: "Modeling Personalized Difficulty of Rehabilitation Exercises Using Causal Trees"
       image:
