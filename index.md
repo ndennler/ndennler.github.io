@@ -11,19 +11,20 @@ profile_picture:
   I address this problem through three pillars: (1) learning human-aligned robot representations from observed user behaviors, (2) identifying constraints through interaction to reduce search complexity, and (3) creating human-in-the-loop optimization algorithms that quickly find a user's preferred robot behaviors in noisy settings. I also enjoy building open-source tools (e.g., <a href="https://pylips.readthedocs.io/en/latest/">PyLips</a> and <a href="https://interaction-lab.github.io/robot-metaphors/">The MUFaSAA Dataset</a>) to support robotics researchers and hobbyists. For a complete listing of my work, head over to my <a href="/research">Research page</a>.
 
 <p style="color: #FF91AF; font-weight: bold; text-align:center; font-size: 1.2em;">
-  I am on the academic job market for the 2025-2026 cycle!
+  I am on the academic job market! Let me know if you hear of any opportunities!  
 </p>
 
 <p>
-  I previously received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. Before that, I received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating at Johnson Athletic Center, designing and sewing garments in my living room, running along the Charles, or whacking/waacking/punking in any of the aforementioned spaces. If you want to see me do any of these things (and more!), check out my <a href="/miscellany">Miscellany page</a>.
+  Previously, I developed AI systems at Uber that modeled user behavior from data at a global scale to optimize pricing and promotion assignment policies online. I received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. I also received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating at Johnson Athletic Center, designing and sewing garments in my living room, running along the Charles, or whacking/waacking/punking in any of the aforementioned spaces. If you want to see me do any of these things (and more!), check out my <a href="/miscellany">Miscellany page</a>.
 </p>
 
 
 ## News:
-- Apr 2026: I gave a talk at Colby College for the Multimodal Interaction course!
-- Mar 2026: I gave a talk on Robot Faces at the [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/)!
+- Apr 2026: I gave an invited talk in the [Human and Robot Partners (HARP) Lab](https://harplab.github.io/harplab.deploy/) at CMU!
+- Apr 2026: I gave a guest lecture at Colby College for the Multimodal Interaction course!
+- Mar 2026: I gave an invited talk on Robot Faces at the [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/)!
 - Mar 2026: I gave a talk at the [Cornell Robotics Seminar](https://www.cs.cornell.edu/events/robotics-seminar)!
-- Feb 2026: I gave a talk to [Zhi Tan's group](https://zhi.fyi/) at Northeastern!
+- Feb 2026: I gave an invited talk in [Zhi Tan's group](https://zhi.fyi/) at Northeastern!
 - Dec 2025: I gave talk at the [Columbia HCI Seminar](https://columbiahci.github.io/#seminar)!
 - Nov 2025: I gave a talk at the Tufts HRI Seminar!
 - Oct 2025: I gave a guest lecture at Yale's [Building Interactive Machines](https://cpsc459-bim.gitlab.io/f25/) course! 
