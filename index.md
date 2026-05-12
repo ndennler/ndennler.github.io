@@ -20,6 +20,7 @@ profile_picture:
 
 
 ## News:
+- May 2026: I gave an invited talk in the [Robotic Caregiving and Human Interaction (RCHI) Lab](https://rchi-lab.github.io/) at CMU!
 - Apr 2026: I gave an invited talk in the [Human and Robot Partners (HARP) Lab](https://harplab.github.io/harplab.deploy/) at CMU!
 - Apr 2026: I gave a guest lecture at Colby College for the Multimodal Interaction course!
 - Mar 2026: I gave an invited talk on Robot Faces at the [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/)!
