@@ -15,7 +15,7 @@ profile_picture:
 </p>
 
 <p>
-  Previously, I developed AI systems at Uber that modeled user behavior from data at a global scale to optimize pricing and promotion assignment policies online. I received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. I also received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating at Johnson Athletic Center, designing and sewing garments in my living room, running along the Charles, or whacking/waacking/punking in any of the aforementioned spaces. If you want to see me do any of these things (and more!), check out my <a href="/miscellany">Miscellany page</a>.
+  Previously, I developed AI systems at Uber that predicted user behaviors to optimize marketplace welfare across the globe. I received my PhD from the University of Southern California, where I was co-advised by <a href="https://stefanosnikolaidis.net/">Stefanos Nikolaidis</a> and <a href="http://maja-mataric.web.app">Maja Matarić</a>. I also received a B.S. in Computer Science and a B.Eng. in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>. In my spare time, you can find me find me figure skating at Johnson Athletic Center, designing and sewing garments in my living room, running along the Charles, or whacking/waacking/punking in any of the aforementioned spaces. If you want to see me do any of these things (and more!), check out my <a href="/miscellany">Miscellany page</a>.
 </p>
 
 
