@@ -43,7 +43,7 @@ Panel discussions and group discussions have a similar structure. The panel disc
 In general, it is best to stick to the prescribed workshop structure, unless there is a very good reason to try something experimental. As with many things subject to peer review, being _too expermental_ can negatively impact reviews and reduce the chance of acceptance.
 
 ## A list of confirmed speakers / panelists
-It is very important to have confirmed speakers for the submission. Some conferences will ask for screenshots of the email confirmations of the proposed speakers. As with assembling the team of organizers, it is good to have various perspectives for the speakers across the same dimesions (e.g., specific research interests, geographic location, genders, ethnicities, industry/academia affiliation, and seniorities). The main purpose of workshops is to give a venue for faculty to share their work. Typically the speakers will skew more junior, and it is good to have at least 1--2 faculty that are quite popular in the context of the conference. This both increases the chances of acceptance and also the likelihood that people will select your workshop over other workshops offered at the conference.
+It is very important to have confirmed speakers for the submission. Some conferences will ask for screenshots of the email confirmations of the proposed speakers. As with assembling the team of organizers, it is good to have various perspectives for the speakers across the same dimesions (e.g., specific research interests, geographic location, genders, ethnicities, industry/academia affiliation, and seniorities). The main purpose of workshops is to give a venue for faculty to share their work. Typically the speakers will skew more junior, and it is good to have at least 1--2 faculty speakers that are quite popular in the context of the conference. This both increases the chances of acceptance and also the likelihood that people will select your workshop over other workshops offered at the conference.
 
 The easiest way to reach out to faculty is to use a template that you customize. Here is an example:
 
@@ -81,7 +81,7 @@ Once you have targeted a list, you can craft a call for participation (CfP) and 
 
 ## A website
 
-In my experience, most workshops don't explicity require a website, but having one up is sort of a hidden requirement. Don't worry though! Creating a website is now easier than ever. Simply use [Google Sites](https://sites.google.com/). The interface is very intuitive and is excellent for one-off websites like workshop websites. On this website, you will essentially lay out visually the components of the workshop:
+Websites are one of the most effective ways to advertise your workshop and receive submissions. There are many tools that are designed to make starting a website very easy. One such tool is [Google Sites](https://sites.google.com/). The interface is very intuitive and is excellent for one-off websites like workshop websites. On this website, you will essentially lay out visually the components of the workshop:
 * Topic / Title 
 * Conference / Location 
 * Abstract explaining why it is important

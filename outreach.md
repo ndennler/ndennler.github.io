@@ -29,11 +29,26 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 </p>
 
 ## Organizing
+- [Web Chair for the 2027 IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)](https://ro-man.org/)
+- [Community Building Day Co-Chair, IEEE International Conference on Robotics and Automation (ICRA 2026)](https://2026.ieee-icra.org/community-building-day/)
+- [RSS Pioneers Co-Chair, Robotics: Science and Systems (RSS 2026)](https://roboticsconference.org/program/pioneers/)
+- [3rd Workshop on Semantic Reasoning and Goal Understanding in Robotics (SemRob), Robotics Science and Systems Conference (RSS 2026)](https://semrob.github.io/)
 - [Web Chair for the 2026 Conference on Human-Robot Interaction](https://humanrobotinteraction.org/2026/)
 - [AAAI Spring Symposium on Child-AI Interaction (AAAI Spring Symposium Series)](https://sites.google.com/iu.edu/childai-aaai2025/home)
-- [Queer in Robotics @ ICRA (part of the inaugural ICRA Diversity Day)](https://sites.google.com/view/queerinrobotics/events/queer-in-robotics-icra-2024?authuser=0)
+- [Queer in Robotics @ ICRA (part of the inaugural ICRA Community Building Day)](https://sites.google.com/view/queerinrobotics/events/queer-in-robotics-icra-2024?authuser=0)
 - [Workshop on Acoustic Sensing and Representations for Robotics (ICRA 2025)](https://sites.google.com/view/roboacoustics)
 - [CRAFT session on Community Ownership of Queer Data and Models (FAccT 2022)](https://facctconference.org/2022/acceptedcraft#colab) 
+
+
+## Press
+* <a href="https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626"><i>MIT News:</i> LLMs help robots understand vague instructions and focus on key details</a> (June 2026)
+* <a href="https://viterbischool.usc.edu/news/2025/05/building-a-better-world-dean-yannis-c-yortsos-tells-graduates-they-will-make-a-difference/"> Building a Better World: Dean Yannis Yortsos Tells Graduates They Will Make a Difference </a> (May 2025)
+* <a href="https://viterbischool.usc.edu/news/2024/04/usc-robotics-open-house-2024-inspires-next-generation-innovators/"> USC Robotics Open House 2024 Inspires Next Generation Innovators </a> (April 2024)
+* <a href="https://viterbischool.usc.edu/news/2023/11/new-robotic-system-assesses-mobility-after-stroke"> New Robotic System Assesses Mobility After Stroke</a> (November 2023)
+* <a href="https://montrealethics.ai/bound-by-the-bounty-collaboratively-shaping-evaluation-processes-for-queer-ai-harms/"> <i> Montreal AI Ethics Institute</i>: Bound by the Bounty—Collaboratively Shaping Evaluation Processes for Queer AI Harms</a> (August 2023)
+* <a href="https://viterbischool.usc.edu/news/2023/06/usc-computer-science-student-makes-strides-in-queer-in-ai-movement/">USC Computer Science Student Makes Strides in Queer in AI Movement</a> (June 2023)
+* <a href="https://dailytrojan.com/2020/04/07/jump-spin-win-how-usc-figure-skating-became-a-successful-and-supportive-team-in-just-a-few-years/"><i>Daily Trojan:</i> Jump, spin, win: How USC Figure Skating became a successful and supportive team in just a few years</a> (April 2020)
+* <a href="https://fortune.com/2019/12/11/robot-hair-brushing-elderly/"><i>FORTUNE:</i> Hair-Brushing Robot Shows How Artificial Intelligence May Help the Disabled</a> (December 2019)
 
 ## Volunteering
 - Co-Founder of <a href="https://sites.google.com/view/queerinrobotics/">Queer in Robotics</a>
@@ -45,11 +60,13 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 - Merit Badge University Director at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2019); lead a team to organize a two-day conference for teaching 300 boy-scouts.
 - Service Vice President at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2018); planning over 3000 person-hours of commmunity service opportunities.
 
-## Press
-* <a href="https://viterbischool.usc.edu/news/2025/05/building-a-better-world-dean-yannis-c-yortsos-tells-graduates-they-will-make-a-difference/"> Building a Better World: Dean Yannis Yortsos Tells Graduates They Will Make a Difference </a> (May 2025)
-* <a href="https://viterbischool.usc.edu/news/2024/04/usc-robotics-open-house-2024-inspires-next-generation-innovators/"> USC Robotics Open House 2024 Inspires Next Generation Innovators </a> (April 2024)
-* <a href="https://viterbischool.usc.edu/news/2023/11/new-robotic-system-assesses-mobility-after-stroke"> New Robotic System Assesses Mobility After Stroke</a> (November 2023)
-* <a href="https://montrealethics.ai/bound-by-the-bounty-collaboratively-shaping-evaluation-processes-for-queer-ai-harms/"> <i> Montreal AI Ethics Institute</i>: Bound by the Bounty—Collaboratively Shaping Evaluation Processes for Queer AI Harms</a> (August 2023)
-* <a href="https://viterbischool.usc.edu/news/2023/06/usc-computer-science-student-makes-strides-in-queer-in-ai-movement/">USC Computer Science Student Makes Strides in Queer in AI Movement</a> (June 2023)
-* <a href="https://dailytrojan.com/2020/04/07/jump-spin-win-how-usc-figure-skating-became-a-successful-and-supportive-team-in-just-a-few-years/"><i>Daily Trojan:</i> Jump, spin, win: How USC Figure Skating became a successful and supportive team in just a few years</a> (April 2020)
-* <a href="https://fortune.com/2019/12/11/robot-hair-brushing-elderly/"><i>FORTUNE:</i> Hair-Brushing Robot Shows How Artificial Intelligence May Help the Disabled</a> (December 2019)
+## Invited Talks
+- May 2026: [Robotic Caregiving and Human Interaction (RCHI) Lab](https://rchi-lab.github.io/), Carnegie Mellon University
+- Apr 2026: [Human and Robot Partners (HARP) Lab](https://harplab.github.io/harplab.deploy/), Carnegie Mellon University
+- Apr 2026: Colby College, Multimodal Interaction course (guest lecture)
+- Mar 2026: [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/), talk on Robot Faces
+- Mar 2026: [Cornell Robotics Seminar](https://www.cs.cornell.edu/events/robotics-seminar)
+- Feb 2026: [Zhi Tan's group](https://zhi.fyi/), Northeastern University
+- Dec 2025: [Columbia HCI Seminar](https://columbiahci.github.io/#seminar)
+- Nov 2025: Tufts HRI Seminar
+- Oct 2025: Yale University, [Building Interactive Machines](https://cpsc459-bim.gitlab.io/f25/) course (guest lecture)

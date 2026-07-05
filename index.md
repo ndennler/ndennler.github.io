@@ -20,16 +20,11 @@ profile_picture:
 
 
 ## News:
-- May 2026: I gave an invited talk in the [Robotic Caregiving and Human Interaction (RCHI) Lab](https://rchi-lab.github.io/) at CMU!
-- Apr 2026: I gave an invited talk in the [Human and Robot Partners (HARP) Lab](https://harplab.github.io/harplab.deploy/) at CMU!
-- Apr 2026: I gave a guest lecture at Colby College for the Multimodal Interaction course!
-- Mar 2026: I gave an invited talk on Robot Faces at the [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/)!
+- Jul 2026: Organized the [RSS Pioneers Workshop](https://roboticsconference.org/program/pioneers/) with [Lukas Schmid](https://schmluk.github.io/) at RSS!
+- Jun 2026: Organized [Community Building Day](https://2026.ieee-icra.org/community-building-day/) with [Andrea Sipos](https://sites.google.com/view/andreasipos) at ICRA!
+- Mar 2026: I gave a talk on Robot Faces at the [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/)!
 - Mar 2026: I gave a talk at the [Cornell Robotics Seminar](https://www.cs.cornell.edu/events/robotics-seminar)!
-- Feb 2026: I gave an invited talk in [Zhi Tan's group](https://zhi.fyi/) at Northeastern!
-- Dec 2025: I gave talk at the [Columbia HCI Seminar](https://columbiahci.github.io/#seminar)!
-- Nov 2025: I gave a talk at the Tufts HRI Seminar!
-- Oct 2025: I gave a guest lecture at Yale's [Building Interactive Machines](https://cpsc459-bim.gitlab.io/f25/) course! 
-- Sept 2025: I was selected to attend the UC Berkeley [NextProf Nexus program](https://nextprof.engin.umich.edu/nextprof-nexus/).
+- Sept 2025: I attended the UC Berkeley [NextProf Nexus program](https://nextprof.engin.umich.edu/nextprof-nexus/).
 - May 2025: I was awarded the [Order of the Laurel and the Palm](https://studentrecognition.usc.edu/the-awards/) at USC for leadership and service that shaped the campus and the world at large. 
 
 
