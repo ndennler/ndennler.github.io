@@ -6,27 +6,40 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="wrapper work-wrapper">
         <div class="work">
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
 
           <!-- Tag Filter Section -->
-          <div class="filter">
-            <button class='filter-btn active' data-filter="all">
-              <!-- <img src="/assets/img/icons/All-logo.png" alt="All" class="filter-logo" /> All -->
-              <img src="/assets/img/icons/All-logo.png" alt="{{ tag }} logo" class="filter-logo" width="20" height="20" loading="lazy" /> All
+          <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">
+              <img src="/assets/img/icons/All-logo.png" alt="All logo" class="filter-logo" width="17" height="17" loading="lazy" /> All
             </button>
             {% assign all_tags = "" %}
             {% for item in page.items %}
               {% assign all_tags = all_tags | append: item.tags | append: "," %}
             {% endfor %}
             {% assign unique_tags = all_tags | split: "," | uniq %}
-            {% for tag in unique_tags %}
-              <button class='filter-btn' data-filter="{{ tag }}">
-                <img src="/assets/img/icons/{{ tag }}-logo.png" alt="{{ tag }} logo" class="filter-logo" width="20" height="20" loading="lazy" />{{ tag}}
 
-                <!-- <img src="/assets/img/icons/{{ tag }}-logo.png" alt="{{ tag }} logo" class="filter-logo" /> {{ tag }} -->
+            {% comment %} Fixed display order; any tag not listed here falls back to first-occurrence order. {% endcomment %}
+            {% assign tag_priority = "Physical,Social,Design,Tool,Award,Inclusion" | split: "," %}
+            {% assign ordered_tags_str = "" %}
+            {% for tag in tag_priority %}
+              {% if unique_tags contains tag %}
+                {% assign ordered_tags_str = ordered_tags_str | append: tag | append: "," %}
+              {% endif %}
+            {% endfor %}
+            {% for tag in unique_tags %}
+              {% unless tag_priority contains tag %}
+                {% assign ordered_tags_str = ordered_tags_str | append: tag | append: "," %}
+              {% endunless %}
+            {% endfor %}
+            {% assign ordered_tags = ordered_tags_str | split: "," %}
+
+            {% for tag in ordered_tags %}
+              <button class="filter-btn" data-filter="{{ tag }}">
+                <img src="/assets/img/icons/{{ tag }}-logo.png" alt="{{ tag }} logo" class="filter-logo" width="17" height="17" loading="lazy" /> {{ tag }}
               </button>
             {% endfor %}
           </div>
@@ -35,70 +48,72 @@
           <ul class="projects-list">
             {% assign sorted_items = page.items | sort_natural: 'date' | reverse %}
             {% assign current_year = "" %}
-          
+
             {% for item in sorted_items %}
               {% assign item_year = item.date | date: "%Y" %}
-        
+
               {% if item_year != current_year %}
-                {% assign current_year = item_year %} 
-                <li class="year-separator"> 
+                {% assign current_year = item_year %}
+                <li class="year-separator">
                   <h2 class="year-heading">{{ current_year }}</h2>
                   <span class="year-line"></span>
                 </li>
               {% endif %}
 
             <li class="work-item" data-tags="{{ item.tags }}">
-              <div class="project-details" style="display: flex; align-items: center;"> <!-- Added flexbox for vertical centering -->
-                <div>
-                  <img
-                    src="{{ item.image.src | absolute_url }}"
-                    alt="{{ item.image.alt }}"
-                    class="work-bubble"
-                    style="object-fit: cover; border-radius: 8px;"
-                  />
-                </div>
-            
-                <div style="padding-left: 15px;">
-                  <h2 style="margin: 5px 0; font-size: 1.4em;">{{ item.title }}</h2>
-                  <p style="margin: 2px 0; font-size: 0.9em;">{{ item.authors }}</p>
-                  <p style="margin: 2px 0; font-size: 0.9em;"><i>{{ item.conference }}</i></p>
-          
-                  <!-- Tags Section -->
-                  <div class="tags" style="justify-content: left; display: flex; flex-wrap: wrap;">
-                    {% assign tag_array = item.tags | split: "," %}
-                    {% for tag in tag_array %}
-                      <span class="tag" style="margin: 5px;">
-                        <button class="tag-button">
-                          <img src="/assets/img/icons/{{ tag }}-logo.png" alt="{{ tag }} logo" class="tag-logo" width="20" height="20" loading="lazy" /> {{ tag }}
-                        </button>
-                      </span>
-                    {% endfor %}
-                  </div>
-          
-                  <!-- Conditional Award and Buttons -->
-                  <div style="margin-top: 10px; display: flex; justify-content: left; flex-wrap: wrap; align-items: center;">
-                    {% if item.award %}
-                    <span style="margin: 0 5px; color: #ccc;">✤</span> <!-- Decorative bullet point -->
-                      <p style="color: #ffcc00; font-weight: bold; margin: 0 10px 0 0;">{{ item.award }}</p>
-                    {% endif %}
-                    
-                    {% if item.website %}
-                    <span style="margin: 0 5px; color: #ccc;">✤</span> <!-- Decorative bullet point -->
-                    <a href="{{ item.website }}" class="button" style="margin: 5px;" target="_blank">Website</a>
-                    {% endif %}
-                    
-                    {% if item.paper %}
-                    <span style="margin: 0 5px; color: #ccc;">✤</span> <!-- Decorative bullet point -->
-                    <a href="{{ item.paper }}" class="button" style="margin: 5px;" target="_blank">Paper</a>
-                    {% endif %}
-                    
-                    {% if item.video %}
-                    <span style="margin: 0 5px; color: #ccc;">✤</span> <!-- Decorative bullet point -->
-                    <a href="{{ item.video }}" class="button" style="margin: 5px;" target="_blank">Video</a>
-                    {% endif %}
+              <div class="work-thumb">
+                <img
+                  src="{{ item.image.src | absolute_url }}"
+                  alt="{{ item.image.alt }}"
+                  class="work-bubble"
+                  loading="lazy"
+                />
+              </div>
 
-                    <span style="margin: 0 5px; color: #ccc;">✤</span> <!-- Decorative bullet point -->
-                  </div>
+              <div class="work-body">
+                <h2 class="work-title">{{ item.title }}</h2>
+                <p class="work-authors">{{ item.authors }}</p>
+                <p class="work-venue">{{ item.conference }}</p>
+
+                <!-- Tags Section -->
+                <div class="work-tags">
+                  {% assign tag_array = item.tags | split: "," %}
+                  {% for tag in tag_array %}
+                    <button class="tag-chip" data-filter="{{ tag }}">
+                      <img src="/assets/img/icons/{{ tag }}-logo.png" alt="{{ tag }} logo" class="tag-logo" width="14" height="14" loading="lazy" /> {{ tag }}
+                    </button>
+                  {% endfor %}
+                </div>
+
+                <!-- Award and Links -->
+                <div class="work-meta-row">
+                  {% if item.award %}
+                    <span class="award-badge">
+                      <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 14.1l-4.94 2.6.94-5.5-4-3.9 5.53-.8L10 1.5z"/></svg>
+                      {{ item.award }}
+                    </span>
+                  {% endif %}
+
+                  {% if item.website %}
+                    <a href="{{ item.website }}" class="work-link" target="_blank" rel="noopener">
+                      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7.5"/><path d="M2.5 10h15M10 2.5c2.4 2.2 3.6 4.9 3.6 7.5s-1.2 5.3-3.6 7.5c-2.4-2.2-3.6-4.9-3.6-7.5S7.6 4.7 10 2.5z"/></svg>
+                      Website
+                    </a>
+                  {% endif %}
+
+                  {% if item.paper %}
+                    <a href="{{ item.paper }}" class="work-link" target="_blank" rel="noopener">
+                      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 2.5h6.5L16 7v10.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5z"/><path d="M11.5 2.5V7H16"/><path d="M6.7 11h6.6M6.7 13.6h6.6"/></svg>
+                      Paper
+                    </a>
+                  {% endif %}
+
+                  {% if item.video %}
+                    <a href="{{ item.video }}" class="work-link" target="_blank" rel="noopener">
+                      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="4.5" width="15" height="11" rx="2"/><path d="M8.3 8l4 2-4 2V8z" fill="currentColor" stroke="none"/></svg>
+                      Video
+                    </a>
+                  {% endif %}
                 </div>
               </div>
             </li>
@@ -113,345 +128,98 @@
 
     <!-- JavaScript for Filtering -->
     <script>
-      const filterList = document.querySelector(".filter");
-const filterButtons = filterList.querySelectorAll(".filter-btn");
-const projects = document.querySelectorAll(".work-item");
+      const filterList = document.querySelector(".filter-bar");
+      const filterButtons = filterList.querySelectorAll(".filter-btn");
+      const tagChips = document.querySelectorAll(".tag-chip");
+      const projects = document.querySelectorAll(".work-item");
 
-let projectIndex = 0;
+      let projectIndex = 0;
 
-projects.forEach((project) => {
-  project.style.viewTransitionName = `proj-${++projectIndex}`;
-});
+      projects.forEach((project) => {
+        project.style.viewTransitionName = `proj-${++projectIndex}`;
+      });
 
-filterButtons.forEach((button) => {
-  button.addEventListener("click", (e) => {
-    // Fix: Ensure that the button itself is always the target
-    const targetButton = e.target.closest('.filter-btn');
-    const projectCategory = targetButton.getAttribute("data-filter");
+      function applyFilter(filter) {
+        const targetButton = Array.from(filterButtons).find(
+          (btn) => btn.getAttribute("data-filter") === filter
+        );
+        if (!targetButton) return;
 
-    if (!document.startViewTransition) {
-      updateActiveButton(targetButton);
-      filterProjects(projectCategory);
-    }
+        const run = () => {
+          updateActiveButton(targetButton);
+          filterProjects(filter);
+        };
 
-    document.startViewTransition(() => {
-      updateActiveButton(targetButton);
-      filterProjects(projectCategory);
-    });
-  });
-});
+        if (!document.startViewTransition) {
+          run();
+        } else {
+          document.startViewTransition(run);
+        }
+      }
 
-function updateActiveButton(newButton) {
-  filterList.querySelector(".active").classList.remove("active");
-  newButton.classList.add("active");
-}
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", (e) => {
+          const targetButton = e.target.closest(".filter-btn");
+          applyFilter(targetButton.getAttribute("data-filter"));
+        });
+      });
 
-function filterProjects(filter) {
-  projects.forEach((project) => {
-    const projectTags = project.getAttribute("data-tags").split(',');
+      tagChips.forEach((chip) => {
+        chip.addEventListener("click", (e) => {
+          const targetChip = e.target.closest(".tag-chip");
+          applyFilter(targetChip.getAttribute("data-filter"));
+          filterList.scrollIntoView({ behavior: "smooth", block: "center" });
+        });
+      });
 
-    if (filter === "all" || projectTags.includes(filter)) {
-      project.removeAttribute("hidden");
-    } else {
-      project.setAttribute("hidden", "");
-    }
-  });
-}
+      function updateActiveButton(newButton) {
+        filterList.querySelector(".active").classList.remove("active");
+        newButton.classList.add("active");
+      }
 
+      function filterProjects(filter) {
+        projects.forEach((project) => {
+          const projectTags = project.getAttribute("data-tags").split(",");
+
+          if (filter === "all" || projectTags.includes(filter)) {
+            project.removeAttribute("hidden");
+          } else {
+            project.setAttribute("hidden", "");
+          }
+        });
+
+        updateYearSeparators();
+      }
+
+      function updateYearSeparators() {
+        const listItems = document.querySelectorAll(".projects-list > li");
+        let currentSeparator = null;
+        let yearHasVisibleItem = false;
+
+        listItems.forEach((li) => {
+          if (li.classList.contains("year-separator")) {
+            if (currentSeparator) {
+              currentSeparator.toggleAttribute("hidden", !yearHasVisibleItem);
+            }
+            currentSeparator = li;
+            yearHasVisibleItem = false;
+          } else if (li.classList.contains("work-item") && !li.hasAttribute("hidden")) {
+            yearHasVisibleItem = true;
+          }
+        });
+
+        if (currentSeparator) {
+          currentSeparator.toggleAttribute("hidden", !yearHasVisibleItem);
+        }
+
+        document.querySelectorAll(".year-separator").forEach((separator) => {
+          separator.classList.remove("year-separator--first-visible");
+        });
+        const firstVisible = document.querySelector(".projects-list > li.year-separator:not([hidden])");
+        if (firstVisible) {
+          firstVisible.classList.add("year-separator--first-visible");
+        }
+      }
     </script>
-
-    <style>
-      /* Increased size for images */
-  .work-bubble {
-    max-height: 25vh;  /* or whatever max height you want */
-    height: auto;
-    width: auto;
-    object-fit: cover; /* Ensures the image maintains its aspect ratio */
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* Flex container for project details */
-  .project-details {
-    display: flex;
-    align-items: center;
-  }
-
-  /* Image container gets a larger flex-basis */
-  .project-details > div:first-child {
-    flex-basis: 35%; /* Increase the percentage to give more space to the image */
-  }
-
-  /* Content (text) section adjustments */
-  .project-details > div:last-child {
-    flex-basis: 65%; /* This gives a relative width to the text part */
-    padding-left: 20px; /* Extra space between image and text */
-  }
-      
-/* General Button Styles */
-.filter-btn {
-  flex: 0 0 22%; /* Adjust percentage based on desired buttons per row */
-  min-width: 120px; /* Ensures buttons don't become too narrow on smaller screens */
-  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-  display: inline-flex; /* Enables Flexbox layout */
-  align-items: center;  /* Vertically centers content */
-  justify-content: center; /* Horizontally centers content */
-  padding: 8px 12px;
-  margin: 5px;
-  background-color: #a7c9bb;
-  color: #000;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  cursor: pointer;
-}
-
-.filter-btn,
-.tag-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 16px;
-  font-size: 0.95em;
-  font-weight: 600;
-  color: #ffffff;
-  background-color: #86a79c; /* Primary blue */
-  border: none;
-  border-radius: 6px;
-  margin-right: 10px;
-  margin-top: 10px ;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-  text-decoration: none;
-  box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 2px 0px, rgba(60, 64, 67, 0.1) 0px 2px 6px 2px;
-
-}
-
-/* Hover and Active States */
-.filter-btn:hover{
-  background-color: #ff91af;
-  transform: translateY(-2px);
-}
-
-.filter-btn:active,
-.tag-button:active {
-  background-color: #ff91af;
-  transform: translateY(0);
-}
-
-/* Active Filter Button */
-.filter-btn.active {
-  background-color: #ff91af; /* Success green */
-}
-
-
-/* Ensure the filter logos have consistent sizes */
-.filter-logo {
-  width: 20px;  /* Set a fixed width */
-  height: 20px; /* Set a fixed height */
-  margin-right: 5px; /* Space between the logo and text */
-  object-fit: contain; /* Ensure the image doesn't stretch */
-}
-
-/* Ensure consistency of tag logo sizes in the project details */
-.tag-logo {
-  width: 16px;  /* Set a fixed width */
-  height: 16px; /* Set a fixed height */
-  margin-right: 5px;
-  object-fit: contain;
-}
-
-      /* Project list styles */
-      .projects-list {
-        list-style: none; /* Remove default list styles */
-        padding: 0; /* Remove padding */
-        margin: 0; /* Remove margin */
-      }
-
-      /* Individual project item styles */
-      .work-item {
-        margin-bottom: 20px; /* Space between items */
-        opacity: 1; /* Default opacity */
-        transition: opacity 0.3s ease; /* Transition for fade effect */
-        border: 1px solid #ccc;
-        border-radius: 8px; /* Rounded corners */
-        padding: 15px; /* Reduced inner padding */
-        background-color: white; /* Background color */
-        box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 2px 0px, rgba(60, 64, 67, 0.1) 0px 2px 6px 2px;
-      }
-      
-
-      .work-item[hidden] {
-        display: none; /* Hide items */
-      }
-      .page-content .wrapper {
-        max-width: 60% !important;
-        padding: 0 20px !important;
-        margin: 0 auto !important;
-      }
-
-      /* Centering tags */
-      .filter {
-        display: flex;
-        justify-content: left; /* Center buttons */
-        flex-wrap: wrap; /* Allow wrapping of buttons */
-        margin-bottom: 20px; /* Space below filter */
-      }
-
-      /* Tags section styles */
-      .tags {
-        margin-top: 10px; /* Space above tags */
-        display: flex; /* Use flex for tags */
-        flex-wrap: wrap; /* Allow tags to wrap */
-      }
-
-      .tag {
-        margin-right: 10px; /* Space between tags */
-      }
-
-
-      .tag-logo {
-        width: 16px; /* Set logo width */
-        height: 16px; /* Set logo height */
-        margin-right: 5px; /* Space between logo and text */
-      }
-
-      /* --- Year Heading Separator --- */
-.year-separator {
-  list-style: none;
-  padding: 0;
-  margin: 40px 0 25px 0; /* Increased top/bottom margin for more spacing */
-  width: 100%; /* Ensure the container takes full width */
-
-  /* Flexbox properties */
-  display: flex;           /* Make this li a flex container */
-  align-items: baseline;   /* Align the baseline of the text and the line */
-  gap: 1em;              /* Add space between the year text and the line start (adjust as needed) */
-}
-
-h2.year-heading {
-  /* Style the heading text */
-  font-size: 1.8em;
-  font-weight: 600;
-  color: #ff91af;
-  margin: 0; /* Remove default h2 margins */
-  padding: 0;
-  border-bottom: none; /* IMPORTANT: Remove the previous border */
-  flex-shrink: 0;      /* Prevent the year text itself from shrinking */
-  white-space: nowrap; /* Prevent the year number from wrapping */
-}
-
-.year-line {
-  /* Style the extending line */
-  flex-grow: 1;          /* Allow this element to grow and fill remaining space */
-  height: 3px;           /* Thickness of the line */
-  background-color: #ff91af; /* Color of the line */
-  /* transform: translateY(-2px); */ /* Optional: Fine-tune vertical position relative to baseline if needed */
-}
-
-/* Remove top margin for the very first year separator in the list */
-ul.projects-list > li.year-separator:first-child {
-    margin-top: 0;
-}
-
-/* Ensure work-items following a heading don't have extra top margin */
-.year-separator + .work-item {
-   /* Adjust if needed */
-}
-
-@media (max-width: 768px) {
-  /* Adjust wrapper for smaller screens */
-  .page-content .wrapper {
-    max-width: 95% !important;
-    padding: 0 10px !important;
-  }
-
-  /* Stack image and text on mobile */
-  .project-details {
-    flex-direction: column;
-    align-items: center; /* Center align items */
-  }
-  
-  /* Fix for the image container */
-  .project-details > div:first-child {
-    width: 100%;
-    flex-basis: auto;
-    margin-bottom: 15px;
-  }
-
-  /* Fix for the text container */
-  .project-details > div:last-child {
-    width: 100%;
-    flex-basis: auto;
-    padding-left: 0; /* Remove left padding on mobile */
-  }
-
-  /* Change image sizing on mobile */
-  .work-bubble {
-    max-height: 30vh; /* Remove max height constraint */
-    max-width: 100%; /* Make sure it doesn't exceed container width */
-    width: auto; /* Allow width to adjust naturally */
-    height: auto; /* Allow height to adjust naturally */
-    object-fit: contain; /* Change to contain to ensure the whole image is visible */
-  }
-  
-  /* Keep links on one line and resize them */
-  div[style*="margin-top: 10px"] {
-    flex-wrap: nowrap !important; /* Prevent wrapping to keep on one line */
-  }
-  
-  a.button {
-    font-size: 0.9em; /* Smaller font size for mobile */
-    padding: 4px 6px; /* Reduced padding */
-    margin: 2px; /* Smaller margins */
-    white-space: nowrap; /* Prevent text wrapping */
-  }
-  
-  /* Adjust filter button layout for mobile */
-  .filter {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 10px; /* Space between buttons */
-    margin-bottom: 20px;
-  }
-
-  .filter-btn {
-    flex: none; /* Remove flex properties */
-    min-width: auto; /* Remove min-width constraint */
-    width: 100%; /* Make buttons take full width of grid cell */
-    margin: 0; /* Remove margins since we're using grid gap */
-    font-size: 0.9em; /* Slightly smaller font for mobile */
-    padding: 8px 12px; /* Adjust padding */
-  }
-
-  /* Adjust tag button layout for mobile if needed */
-  .tags {
-    justify-content: center;
-    /* Center tags on mobile */
-  }
-
-  .tag {
-    margin-right: 5px;
-    /* Reduce space between tags */
-    margin-bottom: 5px;
-    /* Ensure space when wrapping */
-  }
-
-  /* Adjust project links layout for mobile */
-  .project-links {
-    justify-content: center; /* Center links on mobile */
-    gap: 5px; /* Reduce gap between links/buttons */
-  }
-
-   .project-links .link-separator {
-    display: none; /* Hide separators on mobile for a cleaner look */
-   }
-}
-
-    </style>
   </body>
 </html>

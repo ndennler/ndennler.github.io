@@ -3,14 +3,25 @@ layout: work
 title: 
 slug: /work
 items:
+    - title: "QuickLAP: Quick Language-Action Preference Learning for Semi-Autonomous Agents"
+      image:
+        src: /assets/img/work/quicklap.png
+        alt: Diagram of QuickLAP combining human trajectory and language feedback to predict feature preferences for autonomous driving.
+      authors: Jordan Abi Nader, David Lee, <b>Nathaniel Dennler</b>, Andreea Bobu
+      conference: "Robotics: Science and Systems (RSS)"
+      date: 2026-07-13
+      tags: Physical
+      paper: https://www.roboticsproceedings.org/rss22/p115.pdf
+      website: https://github.com/MIT-CLEAR-Lab/QuickLAP
+
     - title: "Masked Inverse Reinforcement Learning for Language Conditioned Reward Learning"
       image:
-        src: /assets/img/work/maskedirl_teaser.gif
-        alt: Teaser gif for Masked Inverse Reinforcement Learning.
+        src: /assets/img/work/maskedirl_teaser.png
+        alt: Diagram of the Masked IRL pipeline, showing language disambiguation and state mask prediction from a user demonstration.
       authors: Minyoung Hwang, Alexandra Forsey-Smerek, <b>Nathaniel Dennler</b>, Andreea Bobu
       conference: IEEE International Conference on Robotics and Automation (ICRA)
       date: 2026-06-01
-      tags: Behavior,Customization
+      tags: Physical
       website: https://mit-clear-lab.github.io/Masked-IRL/
       paper: https://arxiv.org/html/2511.14565v1
 
@@ -21,7 +32,7 @@ items:
       authors: Fin Amin, <b>Nathaniel Dennler</b>, Andreea Bobu
       conference: IEEE International Conference on Robotics and Automation (ICRA)
       date: 2026-06-01
-      tags: Behavior,Customization
+      tags: Physical
       website: https://mit-clear-lab.github.io/GIFT/
       paper: https://arxiv.org/abs/2603.22574
 
@@ -32,7 +43,8 @@ items:
       authors: Stephania Castro, Amy O'Connell, Bailey Cislowski, <b>Nathaniel Dennler</b>, Heather Culbertson, Maja Matarić
       conference: IEEE Haptics Symposium
       date: 2026-03-29
-      tags: Behavior
+      tags: Social
+      paper: https://pubmed.ncbi.nlm.nih.gov/42253449/
 
     - title: "HRIBench: Benchmarking Vision-Language Models for Real-Time Human Perception in Human-Robot Interaction"
       image:
@@ -41,7 +53,7 @@ items:
       authors: Zhonghao Shi, Enyu Zhao, <b>Nathaniel Dennler</b>, Jingzhen Wang, Xinyang Xu, Kaleen Shrestha, Mengxue Fu, Daniel Seita, Maja Matarić.
       conference: International Symposium on Experimental Robotics (ISER)
       date: 2025-07-06
-      tags: Personalization,Behavior
+      tags: Social
       paper: https://arxiv.org/pdf/2505.04583
 
     - title: "Modeling Personalized Difficulty of Rehabilitation Exercises Using Causal Trees"
@@ -51,7 +63,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Zhonghao Shi, Uksang Yoo, Stefanos Nikolaidis, Maja Matarić
       conference: IEEE/RAS International Conference on Rehabilitation Robotics (ICORR)
       date: 2025-05-01
-      tags: Personalization,Behavior
+      tags: Physical
       paper: https://arxiv.org/pdf/2505.04583
       website: https://github.com/interaction-lab/stroke-exercise-difficulty-estimation
 
@@ -62,7 +74,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Evan Torrence, Uksang Yoo, Stefanos Nikolaidis, Maja J. Matarić
       conference: ACM User Interface Software and Technology (UIST) Demo Track
       date: 2024-10-01
-      tags: Customization,Behavior,Tool
+      tags: Social,Tool
       paper: https://dl.acm.org/doi/10.1145/3672539.3686747
       website: https://pylips.readthedocs.io/
 
@@ -73,7 +85,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Amelia Cain, Erica De Guzman, Claudia Chiu, Carolee J. Winstein, Stefanos Nikolaidis, Maja J. Matarić
       conference: Science Robotics
       date: 2023-12-01
-      tags: Personalization,Behavior
+      tags: Physical
       paper: https://www.science.org/stoken/author-tokens/ST-1549/full
     
     - title: Design metaphors for understanding user expectations of socially interactive robot embodiments
@@ -83,7 +95,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, Maja J. Matarić
       conference: 2023 ACM Transactions on Human-Robot Interaction
       date: 2023-1-01
-      tags: Embodiment,Personalization,Tool
+      tags: Design,Tool
       website: https://interaction-lab.github.io/robot-metaphors/
       paper: https://dl.acm.org/doi/10.1145/3550489
       video: http://example.com/design_metaphors_video.mp4
@@ -95,7 +107,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Mina Kian, Stefanos Nikolaidis, Maja Matarić
       conference: 2025 Springer International Journal on Social Robotics
       date: 2025-04-01
-      tags: Embodiment,Customization
+      tags: Design,Social
       paper: https://arxiv.org/pdf/2404.00494
 
     # MY CONFERENCE PAPERS
@@ -106,7 +118,7 @@ items:
         alt: Video of Kuri helping a person find items.
       authors: <b>Nathaniel Dennler</b>, Stefanos Nikolaidis, Maja Matarić
       conference: 2025 ACM/IEEE Conference on Human-Robot Interaction (HRI)
-      tags: Behavior,Customization,Award
+      tags: Social,Award
       award: Best Technical Paper Finalist
       date: 2025-03-01
       website: https://interaction-lab.github.io/CLEA/
@@ -119,7 +131,7 @@ items:
       authors: Uksang Yoo, <b>Nathaniel Dennler</b>, Eliot Xing, Maja Matarić, Stefanos Nikolaidis, Jeffrey Ichnowski, Jean Oh
       conference: 2025 ACM/IEEE Conference on Human-Robot Interaction (HRI)
       date: 2025-03-01
-      tags: Behavior,Customization,Award
+      tags: Physical,Award
       award: Best Systems Paper Finalist
       website: https://moehair.github.io/
       paper: https://moehair.github.io/static/pdfs/paper.pdf
@@ -131,7 +143,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Zhonghao Shi, Stefanos Nikolaidis, Maja Matarić
       conference: 2024 International Symposium on Robotics Research (ISRR)
       date: 2024-12-08
-      tags: Behavior,Customization
+      tags: Physical,Social
       paper: https://arxiv.org/pdf/2411.11182
 
     - title: "The RoSiD Tool: Empowering Users to Design Multimodal Signals"
@@ -141,7 +153,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, David Delgado, Daniel Zeng, Stefanos Nikolaidis, Maja Matarić
       conference: 2023 International Symposium on Experimental Robotics (ISER)
       date: 2023-10-01
-      tags: Behavior,Customization
+      tags: Social
       paper: https://arxiv.org/pdf/2401.03088
 
     - title: Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm
@@ -151,7 +163,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Eura Shin, Stefanos Nikolaidis, Maja Matarić
       conference: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
       date: 2021-10-01
-      tags: Behavior,Customization
+      tags: Physical
       paper: https://ieeexplore.ieee.org/document/9636768
       video: https://www.youtube.com/watch?v=FJ8jtZohNak&ab_channel=ICAROSLAB
 
@@ -162,7 +174,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Catherine Yunis, Jonathan Realmuto, Terence Sanger, Stefanos Nikolaidis, Maja Matarić
       conference: 2021 IEEE International Conference on Robot & Human Interactive Communication (RO-MAN)
       date: 2021-06-01
-      tags: Behavior,Personalization
+      tags: Social
       paper: https://ieeexplore.ieee.org/abstract/document/9515466
 
     # Additional Papers
@@ -186,7 +198,7 @@ items:
       authors: Zhonghao Shi, Han Chen, Anna-Maria Velentza, Siqi Liu, <b>Nathaniel Dennler</b>, Allison O'Connell,Maja Matarić
       conference: 2023 ACM/IEEE International Conference on Human-Robot Interaction (HRI)
       date: 2023-03-01
-      tags: Behavior,Customization
+      tags: Social
       paper: https://dl.acm.org/doi/abs/10.1145/3568162.3576987
 
     - title: Using Exploratory Search to Learn Representations for Human Preferences
@@ -196,7 +208,7 @@ items:
       authors: <b>Nathaniel Dennler</b>, Stefanos Nikolaidis, Maja Matarić
       conference: 2024 Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI LBR)
       date: 2024-03-01
-      tags: Behavior,Customization
+      tags: Social
       website: https://interaction-lab.github.io/CLEA/
       paper: https://dl.acm.org/doi/10.1145/3610978.3640745
       video: https://www.youtube.com/watch?v=IOJ1xDy0DEE&ab_channel=NateDennler
@@ -209,7 +221,7 @@ items:
       authors: Uksang Yoo, <b>Nathaniel Dennler</b>, Maja Matarić, Stefanos Nikolaidis, Jean Oh, Jeffrey Ichnowski
       conference: 2024 Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI LBR)
       date: 2024-03-01
-      tags: Behavior,Award
+      tags: Physical,Award
       award: Best LBR Poster
       paper: https://dl.acm.org/doi/abs/10.1145/3610978.3640682
 
@@ -220,18 +232,18 @@ items:
       authors: Melina Daniilidis, <b>Nathaniel Dennler</b>, Maja Matarić, Stefanos Nikolaidis
       conference: 2024 Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI LBR)
       date: 2024-03-01
-      tags: Behavior,Personalization
+      tags: Physical
       paper: https://dl.acm.org/doi/abs/10.1145/3610978.3640558
 
 
     - title: "Can a gender-ambiguous voice reduce gender stereotypes in human-robot interactions?"
       image:
         src: /assets/img/work/voice.jpg
-        alt: image illustrating different furhat robots.
+        alt: image of a Furhat robot with a projected face saying "Hi, my name is Sam".
       authors: Ilaria Torre, Erik Lagerstedt, <b>Nathaniel Dennler</b>, Katie Seaborn, Iolanda Leite, Éva Székely
       conference: 2023 IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)
       date: 2023-06-01
-      tags: Behavior,Personalization
+      tags: Social
       paper: https://ieeexplore.ieee.org/document/10309500
 
     - title: "Bound by the Bounty: Collaboratively Shaping Evaluation Processes for Queer AI Harms"
@@ -260,7 +272,7 @@ items:
     - title: "pyribs: A bare-bones python library for quality diversity optimization"
       image:
         src: /assets/img/work/pyribs.gif
-        alt: the pyribs logo.
+        alt: Lunar lander demo animation with the pyribs logo overlaid.
       authors: Bryon Tjanaka, Matthew C Fontaine, David H Lee, Yulun Zhang, Nivedit Reddy Balam, <b>Nathaniel Dennler</b>, Sujay S Garlanka, Nikitas Dimitri Klapsis, Stefanos Nikolaidis
       conference: 2023 Proceedings of the Genetic and Evolutionary Computation Conference (GECCO)
       date: 2023-07-01
