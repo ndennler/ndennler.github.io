@@ -35,42 +35,70 @@ Selected Publications
 <h3 style="text-align:left;">
 Journal Papers
 </h3>
-<p>
-  <small>
-  <b> A metric for characterizing the arm nonuse workspace in poststroke individuals using a robot arm </b><br>
-  <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzman, Claudia Chiu, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
-  <i>Science Robotics</i> 8, eadf7723(2023). DOI:<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">10.1126/scirobotics.adf7723</a>.<br>
-  </small>
-  [<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">free access</a>]
-</p>
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="{{ "/assets/img/work/nonuse.gif" | absolute_url }}" alt="Video of a robot arm assisting a poststroke individual." loading="lazy" />
+  </div>
+  <div class="pub-body">
+    <p>
+      <small>
+      <b> A metric for characterizing the arm nonuse workspace in poststroke individuals using a robot arm </b><br>
+      <i>Nathaniel Dennler</i>, Amelia Cain, Erica De Guzman, Claudia Chiu, Carolee Winstein, Stefanos Nikolaidis, and Maja Matarić. <br>
+      <i>Science Robotics</i> 8, eadf7723(2023). DOI:<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">10.1126/scirobotics.adf7723</a>.<br>
+      </small>
+      [<a href="https://www.science.org/stoken/author-tokens/ST-1549/full">free access</a>]
+    </p>
+  </div>
+</div>
 
-<p>
-  <small>
-  <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
-  <i>Nathaniel Dennler</i>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, and Maja Matarić. <br>
-  <i>2023 ACM Transactions on Human-Robot Interaction (THRI)</i>.<br>
-  </small>
-  [<a href="https://dl.acm.org/doi/abs/10.1145/3550489">pdf</a>] [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
-</p>
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="{{ "/assets/img/work/MUFaSAA.jpg" | absolute_url }}" alt="image of various robot embodiments illustrating design metaphors." loading="lazy" />
+  </div>
+  <div class="pub-body">
+    <p>
+      <small>
+      <b>Using Design Metaphors to Understand User Expectations of Socially Interactive Robot Embodiments. </b><br>
+      <i>Nathaniel Dennler</i>, Changxiao Ruan, Jessica Hadiwijoyo, Brenna Chen, Stefanos Nikolaidis, and Maja Matarić. <br>
+      <i>2023 ACM Transactions on Human-Robot Interaction (THRI)</i>.<br>
+      </small>
+      [<a href="https://dl.acm.org/doi/abs/10.1145/3550489">pdf</a>] [<a href="https://interaction-lab.github.io/robot-metaphors/">website</a>]
+    </p>
+  </div>
+</div>
 
 <h3 style="text-align:left;">
 Conference Papers
 </h3>
 
-<p>
-  <small>
-  <b>Contrastive Learning from Exploratory Actions: Leveraging Natural Interactions for Preference Elicitation. </b><br>
-  <i>Nathaniel Dennler</i>, Stefanos Nikolaidis, and Maja Matarić. <br>
-  <i>2025 IEEE/ACM Conference on Human-Robot Interaction (HRI 2025). Best Technical Paper Finalist</i>.<br>
-  </small>
-  [<a href="https://dl.acm.org/doi/10.5555/3721488.3721584">pdf</a>] [<a href="https://interaction-lab.github.io/CLEA/">website</a>]
-</p>
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="{{ "/assets/img/work/clea.gif" | absolute_url }}" alt="Video of Kuri helping a person find items." loading="lazy" />
+  </div>
+  <div class="pub-body">
+    <p>
+      <small>
+      <b>Contrastive Learning from Exploratory Actions: Leveraging Natural Interactions for Preference Elicitation. </b><br>
+      <i>Nathaniel Dennler</i>, Stefanos Nikolaidis, and Maja Matarić. <br>
+      <i>2025 IEEE/ACM Conference on Human-Robot Interaction (HRI 2025). Best Technical Paper Finalist</i>.<br>
+      </small>
+      [<a href="https://dl.acm.org/doi/10.5555/3721488.3721584">pdf</a>] [<a href="https://interaction-lab.github.io/CLEA/">website</a>]
+    </p>
+  </div>
+</div>
 
-<p>
-  <small>
-  <b>Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm. </b><br>
-  <i>Nathaniel Dennler</i>, Eura Shin, Maja Matarić, and Stefanos Nikolaidis. <br>
-  <i>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>.<br>
-  </small>
-  [<a href="https://ieeexplore.ieee.org/document/9636768">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
-</p>
+<div class="pub-entry">
+  <div class="pub-thumb">
+    <img src="{{ "/assets/img/work/hair.gif" | absolute_url }}" alt="video of a JACO arm combing hair." loading="lazy" />
+  </div>
+  <div class="pub-body">
+    <p>
+      <small>
+      <b>Design and Evaluation of a Hair Combing System Using a General-Purpose Robotic Arm. </b><br>
+      <i>Nathaniel Dennler</i>, Eura Shin, Maja Matarić, and Stefanos Nikolaidis. <br>
+      <i>2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>.<br>
+      </small>
+      [<a href="https://ieeexplore.ieee.org/document/9636768">pdf</a>] [<a href="https://youtu.be/FJ8jtZohNak">video</a>]<!-- [<a href="https://youtu.be/FJ8jtZohNak">presentation</a>] -->
+    </p>
+  </div>
+</div>
