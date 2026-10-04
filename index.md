@@ -20,6 +20,7 @@ profile_picture:
 
 
 ## News:
+- Oct 2026: I was selected as a [NERC Rising Star](https://nerc2026.github.io/#schedule).
 - Jul 2026: Organized the [RSS Pioneers Workshop](https://roboticsconference.org/program/pioneers/) with [Lukas Schmid](https://schmluk.github.io/) at RSS!
 - Jun 2026: Organized [Community Building Day](https://2026.ieee-icra.org/community-building-day/) with [Andrea Sipos](https://sites.google.com/view/andreasipos) at ICRA!
 - Mar 2026: I gave a talk on Robot Faces at the [Vizij Workshop](https://vizij.ai/events/hri-2026-tutorial/) at [HRI 2026](https://humanrobotinteraction.org/2026/)!
