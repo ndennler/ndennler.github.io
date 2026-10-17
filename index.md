@@ -11,7 +11,7 @@ profile_picture:
   I address this problem through three pillars: (1) learning human-aligned robot representations from observed user behaviors, (2) identifying constraints through interaction to reduce search complexity, and (3) creating human-in-the-loop optimization algorithms that quickly find a user's preferred robot behaviors in noisy settings. I also enjoy building open-source tools (e.g., <a href="https://pylips.readthedocs.io/en/latest/">PyLips</a> and <a href="https://interaction-lab.github.io/robot-metaphors/">The MUFaSAA Dataset</a>) to support robotics researchers and hobbyists. For a complete listing of my work, head over to my <a href="/research">Research page</a>.
 
 <p style="color: #FF91AF; font-weight: bold; text-align:center; font-size: 1.2em;">
-  I am on the 2026--2027 faculty job market!  
+  I am on the 2027 faculty job market!  
 </p>
 
 <p>
