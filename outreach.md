@@ -41,11 +41,12 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 
 
 ## Press
+* <a href="https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109"><i>MIT News:</i> AI-assisted learning platform helps robots reason beyond literal commands</a> (November 2026)
 * <a href="https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626"><i>MIT News:</i> LLMs help robots understand vague instructions and focus on key details</a> (June 2026)
-* <a href="https://viterbischool.usc.edu/news/2025/05/building-a-better-world-dean-yannis-c-yortsos-tells-graduates-they-will-make-a-difference/"> Building a Better World: Dean Yannis Yortsos Tells Graduates They Will Make a Difference </a> (May 2025)
-* <a href="https://viterbischool.usc.edu/news/2024/04/usc-robotics-open-house-2024-inspires-next-generation-innovators/"> USC Robotics Open House 2024 Inspires Next Generation Innovators </a> (April 2024)
-* <a href="https://viterbischool.usc.edu/news/2023/11/new-robotic-system-assesses-mobility-after-stroke"> New Robotic System Assesses Mobility After Stroke</a> (November 2023)
-* <a href="https://montrealethics.ai/bound-by-the-bounty-collaboratively-shaping-evaluation-processes-for-queer-ai-harms/"> <i> Montreal AI Ethics Institute</i>: Bound by the Bounty—Collaboratively Shaping Evaluation Processes for Queer AI Harms</a> (August 2023)
+* <a href="https://viterbischool.usc.edu/news/2025/05/building-a-better-world-dean-yannis-c-yortsos-tells-graduates-they-will-make-a-difference/">Building a Better World: Dean Yannis Yortsos Tells Graduates They Will Make a Difference</a> (May 2025)
+* <a href="https://viterbischool.usc.edu/news/2024/04/usc-robotics-open-house-2024-inspires-next-generation-innovators/">USC Robotics Open House 2024 Inspires Next Generation Innovators</a> (April 2024)
+* <a href="https://viterbischool.usc.edu/news/2023/11/new-robotic-system-assesses-mobility-after-stroke">New Robotic System Assesses Mobility After Stroke</a> (November 2023)
+* <a href="https://montrealethics.ai/bound-by-the-bounty-collaboratively-shaping-evaluation-processes-for-queer-ai-harms/"><i>Montreal AI Ethics Institute:</i> Bound by the Bounty—Collaboratively Shaping Evaluation Processes for Queer AI Harms</a> (August 2023)
 * <a href="https://viterbischool.usc.edu/news/2023/06/usc-computer-science-student-makes-strides-in-queer-in-ai-movement/">USC Computer Science Student Makes Strides in Queer in AI Movement</a> (June 2023)
 * <a href="https://dailytrojan.com/2020/04/07/jump-spin-win-how-usc-figure-skating-became-a-successful-and-supportive-team-in-just-a-few-years/"><i>Daily Trojan:</i> Jump, spin, win: How USC Figure Skating became a successful and supportive team in just a few years</a> (April 2020)
 * <a href="https://fortune.com/2019/12/11/robot-hair-brushing-elderly/"><i>FORTUNE:</i> Hair-Brushing Robot Shows How Artificial Intelligence May Help the Disabled</a> (December 2019)
@@ -61,6 +62,9 @@ I provided instruction on topics related to forward kinematics, inverse kinemati
 - Service Vice President at WPI's <a href="https://users.wpi.edu/~apo/">Alpha Phi Omega</a> (2018); planning over 3000 person-hours of commmunity service opportunities.
 
 ## Invited Talks
+- December 2026: [WPI Robotics Colloquium Series](https://www.wpi.edu/academics/departments/robotics-engineering/colloquium-series), Worcester Polytechnic Institute
+- December 2026: GIRAFFE Lab, Brown University
+- November 2026: [AIVAC Vietnam Seminar Series](https://aivacresearch.com/en/about), AIVAC Global Research 
 - May 2026: [Robotic Caregiving and Human Interaction (RCHI) Lab](https://rchi-lab.github.io/), Carnegie Mellon University
 - Apr 2026: [Human and Robot Partners (HARP) Lab](https://harplab.github.io/harplab.deploy/), Carnegie Mellon University
 - Apr 2026: Colby College, Multimodal Interaction course (guest lecture)
